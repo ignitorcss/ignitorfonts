@@ -1,0 +1,1178 @@
+[
+  {
+    "name": "ignitor-emo-happy",
+    "code": "&#xe800"
+  },
+  {
+    "name": "ignitor-emo-left",
+    "code": "&#xe801"
+  },
+  {
+    "name": "ignitor-emo-unhappy",
+    "code": "&#xe802"
+  },
+  {
+    "name": "ignitor-emo-sleep",
+    "code": "&#xe803"
+  },
+  {
+    "name": "ignitor-emo-devil",
+    "code": "&#xe804"
+  },
+  {
+    "name": "ignitor-emo-surprised",
+    "code": "&#xe805"
+  },
+  {
+    "name": "ignitor-emo-tongue",
+    "code": "&#xe806"
+  },
+  {
+    "name": "ignitor-emo-sunglasses",
+    "code": "&#xe807"
+  },
+  {
+    "name": "ignitor-emo-displeased",
+    "code": "&#xe808"
+  },
+  {
+    "name": "ignitor-emo-grin",
+    "code": "&#xe809"
+  },
+  {
+    "name": "ignitor-emo-angry",
+    "code": "&#xe810"
+  },
+  {
+    "name": "ignitor-emo-saint",
+    "code": "&#xe811"
+  },
+  {
+    "name": "ignitor-emo-cry",
+    "code": "&#xe812"
+  },
+  {
+    "name": "ignitor-emo-squint",
+    "code": "&#xe813"
+  },
+  {
+    "name": "ignitor-emo-laugh",
+    "code": "&#xe814"
+  },
+  {
+    "name": "ignitor-emo-right",
+    "code": "&#xe815"
+  },
+  {
+    "name": "ignitor-user",
+    "code": "&#xe816"
+  },
+  {
+    "name": "ignitor-users",
+    "code": "&#xe817"
+  },
+  {
+    "name": "ignitor-user-add",
+    "code": "&#xe818"
+  },
+  {
+    "name": "ignitor-star",
+    "code": "&#xe819"
+  },
+  {
+    "name": "ignitor-star-empty",
+    "code": "&#xe820"
+  },
+  {
+    "name": "ignitor-heart",
+    "code": "&#xe821"
+  },
+  {
+    "name": "ignitor-heart-empty",
+    "code": "&#xe822"
+  },
+  {
+    "name": "ignitor-mail",
+    "code": "&#xe823"
+  },
+  {
+    "name": "ignitor-flashlight",
+    "code": "&#xe824"
+  },
+  {
+    "name": "ignitor-search",
+    "code": "&#xe825"
+  },
+  {
+    "name": "ignitor-cancel-circled",
+    "code": "&#xe826"
+  },
+  {
+    "name": "ignitor-cancel-squared",
+    "code": "&#xe827"
+  },
+  {
+    "name": "ignitor-plus",
+    "code": "&#xe828"
+  },
+  {
+    "name": "ignitor-plus-circled",
+    "code": "&#xe829"
+  },
+  {
+    "name": "ignitor-plus-squared",
+    "code": "&#xe830"
+  },
+  {
+    "name": "ignitor-minus",
+    "code": "&#xe831"
+  },
+  {
+    "name": "ignitor-minus-circled",
+    "code": "&#xe832"
+  },
+  {
+    "name": "ignitor-minus-squared",
+    "code": "&#xe833"
+  },
+  {
+    "name": "ignitor-info-circled",
+    "code": "&#xe834"
+  },
+  {
+    "name": "ignitor-info",
+    "code": "&#xe835"
+  },
+  {
+    "name": "ignitor-home",
+    "code": "&#xe836"
+  },
+  {
+    "name": "ignitor-link",
+    "code": "&#xe837"
+  },
+  {
+    "name": "ignitor-attach",
+    "code": "&#xe838"
+  },
+  {
+    "name": "ignitor-video",
+    "code": "&#xe839"
+  },
+  {
+    "name": "ignitor-layout",
+    "code": "&#xe840"
+  },
+  {
+    "name": "ignitor-menu",
+    "code": "&#xe841"
+  },
+  {
+    "name": "ignitor-check",
+    "code": "&#xe842"
+  },
+  {
+    "name": "ignitor-cancel",
+    "code": "&#xe843"
+  },
+  {
+    "name": "ignitor-spin",
+    "code": "&#xe844"
+  },
+  {
+    "name": "ignitor-spin-multiple",
+    "code": "&#xe845"
+  },
+  {
+    "name": "ignitor-recycle",
+    "code": "&#xe846"
+  },
+  {
+    "name": "ignitor-eye",
+    "code": "&#xe847"
+  },
+  {
+    "name": "ignitor-spin-double",
+    "code": "&#xe848"
+  },
+  {
+    "name": "ignitor-lock-open",
+    "code": "&#xe849"
+  },
+  {
+    "name": "ignitor-lock",
+    "code": "&#xe850"
+  },
+  {
+    "name": "ignitor-tag",
+    "code": "&#xe851"
+  },
+  {
+    "name": "ignitor-loader",
+    "code": "&#xe852"
+  },
+  {
+    "name": "ignitor-loader-single",
+    "code": "&#xe853"
+  },
+  {
+    "name": "ignitor-thick-right",
+    "code": "&#xe854"
+  },
+  {
+    "name": "ignitor-thick-up",
+    "code": "&#xe855"
+  },
+  {
+    "name": "ignitor-flag",
+    "code": "&#xe856"
+  },
+  {
+    "name": "ignitor-thumbs-up",
+    "code": "&#xe857"
+  },
+  {
+    "name": "ignitor-thumbs-down",
+    "code": "&#xe858"
+  },
+  {
+    "name": "ignitor-download",
+    "code": "&#xe859"
+  },
+  {
+    "name": "ignitor-firefox",
+    "code": "&#xe860"
+  },
+  {
+    "name": "ignitor-chrome",
+    "code": "&#xe861"
+  },
+  {
+    "name": "ignitor-opera",
+    "code": "&#xe862"
+  },
+  {
+    "name": "ignitor-ie",
+    "code": "&#xe863"
+  },
+  {
+    "name": "ignitor-crown",
+    "code": "&#xe864"
+  },
+  {
+    "name": "ignitor-crown-plus",
+    "code": "&#xe865"
+  },
+  {
+    "name": "ignitor-crown-minus",
+    "code": "&#xe866"
+  },
+  {
+    "name": "ignitor-marquee",
+    "code": "&#xe867"
+  },
+  {
+    "name": "ignitor-upload",
+    "code": "&#xe868"
+  },
+  {
+    "name": "ignitor-upload-cloud",
+    "code": "&#xe869"
+  },
+  {
+    "name": "ignitor-reply",
+    "code": "&#xe870"
+  },
+  {
+    "name": "ignitor-reply-all",
+    "code": "&#xe871"
+  },
+  {
+    "name": "ignitor-forward",
+    "code": "&#xe872"
+  },
+  {
+    "name": "ignitor-quote",
+    "code": "&#xe873"
+  },
+  {
+    "name": "ignitor-code",
+    "code": "&#xe874"
+  },
+  {
+    "name": "ignitor-export",
+    "code": "&#xe875"
+  },
+  {
+    "name": "ignitor-pencil",
+    "code": "&#xe876"
+  },
+  {
+    "name": "ignitor-feather",
+    "code": "&#xe877"
+  },
+  {
+    "name": "ignitor-print",
+    "code": "&#xe878"
+  },
+  {
+    "name": "ignitor-retweet",
+    "code": "&#xe879"
+  },
+  {
+    "name": "ignitor-keyboard",
+    "code": "&#xe880"
+  },
+  {
+    "name": "ignitor-comment",
+    "code": "&#xe881"
+  },
+  {
+    "name": "ignitor-chat",
+    "code": "&#xe882"
+  },
+  {
+    "name": "ignitor-bell",
+    "code": "&#xe883"
+  },
+  {
+    "name": "ignitor-attention",
+    "code": "&#xe884"
+  },
+  {
+    "name": "ignitor-thick-down",
+    "code": "&#xe885"
+  },
+  {
+    "name": "ignitor-thick-left",
+    "code": "&#xe886"
+  },
+  {
+    "name": "ignitor-umbrella",
+    "code": "&#xe887"
+  },
+  {
+    "name": "ignitor-location",
+    "code": "&#xe888"
+  },
+  {
+    "name": "ignitor-map",
+    "code": "&#xe889"
+  },
+  {
+    "name": "ignitor-direction",
+    "code": "&#xe890"
+  },
+  {
+    "name": "ignitor-compass",
+    "code": "&#xe891"
+  },
+  {
+    "name": "ignitor-cup",
+    "code": "&#xe892"
+  },
+  {
+    "name": "ignitor-trash",
+    "code": "&#xe893"
+  },
+  {
+    "name": "ignitor-tower",
+    "code": "&#xe894"
+  },
+  {
+    "name": "ignitor-videocam",
+    "code": "&#xe895"
+  },
+  {
+    "name": "ignitor-ok",
+    "code": "&#xe896"
+  },
+  {
+    "name": "ignitor-trash-bin",
+    "code": "&#xe897"
+  },
+  {
+    "name": "ignitor-location-marker",
+    "code": "&#xe898"
+  },
+  {
+    "name": "ignitor-bullhorn",
+    "code": "&#xe899"
+  },
+  {
+    "name": "ignitor-volume-up",
+    "code": "&#xe900"
+  },
+  {
+    "name": "ignitor-volume-down",
+    "code": "&#xe901"
+  },
+  {
+    "name": "ignitor-folder",
+    "code": "&#xe902"
+  },
+  {
+    "name": "ignitor-archive",
+    "code": "&#xe903"
+  },
+  {
+    "name": "ignitor-box",
+    "code": "&#xe904"
+  },
+  {
+    "name": "ignitor-rss",
+    "code": "&#xe905"
+  },
+  {
+    "name": "ignitor-phone",
+    "code": "&#xe906"
+  },
+  {
+    "name": "ignitor-cog",
+    "code": "&#xe907"
+  },
+  {
+    "name": "ignitor-tools",
+    "code": "&#xe908"
+  },
+  {
+    "name": "ignitor-share",
+    "code": "&#xe909"
+  },
+  {
+    "name": "ignitor-volume-off",
+    "code": "&#xe910"
+  },
+  {
+    "name": "ignitor-basket",
+    "code": "&#xe911"
+  },
+  {
+    "name": "ignitor-bag",
+    "code": "&#xe912"
+  },
+  {
+    "name": "ignitor-award",
+    "code": "&#xe913"
+  },
+  {
+    "name": "ignitor-login",
+    "code": "&#xe914"
+  },
+  {
+    "name": "ignitor-logout",
+    "code": "&#xe915"
+  },
+  {
+    "name": "ignitor-mic",
+    "code": "&#xe916"
+  },
+  {
+    "name": "ignitor-mute",
+    "code": "&#xe917"
+  },
+  {
+    "name": "ignitor-sound",
+    "code": "&#xe918"
+  },
+  {
+    "name": "ignitor-globe",
+    "code": "&#xe919"
+  },
+  {
+    "name": "ignitor-clock",
+    "code": "&#xe920"
+  },
+  {
+    "name": "ignitor-hourglass",
+    "code": "&#xe921"
+  },
+  {
+    "name": "ignitor-lamp",
+    "code": "&#xe922"
+  },
+  {
+    "name": "ignitor-light-down",
+    "code": "&#xe923"
+  },
+  {
+    "name": "ignitor-light-up",
+    "code": "&#xe924"
+  },
+  {
+    "name": "ignitor-adjust",
+    "code": "&#xe925"
+  },
+  {
+    "name": "ignitor-block",
+    "code": "&#xe926"
+  },
+  {
+    "name": "ignitor-resize-full",
+    "code": "&#xe927"
+  },
+  {
+    "name": "ignitor-resize-small",
+    "code": "&#xe928"
+  },
+  {
+    "name": "ignitor-popup",
+    "code": "&#xe929"
+  },
+  {
+    "name": "ignitor-th",
+    "code": "&#xe930"
+  },
+  {
+    "name": "ignitor-youtube",
+    "code": "&#xe931"
+  },
+  {
+    "name": "ignitor-arrow-combo",
+    "code": "&#xe932"
+  },
+  {
+    "name": "ignitor-down-circled",
+    "code": "&#xe933"
+  },
+  {
+    "name": "ignitor-left-circled",
+    "code": "&#xe934"
+  },
+  {
+    "name": "ignitor-right-circled",
+    "code": "&#xe935"
+  },
+  {
+    "name": "ignitor-up-circled",
+    "code": "&#xe936"
+  },
+  {
+    "name": "ignitor-down-open",
+    "code": "&#xe937"
+  },
+  {
+    "name": "ignitor-left-open",
+    "code": "&#xe938"
+  },
+  {
+    "name": "ignitor-right-open",
+    "code": "&#xe939"
+  },
+  {
+    "name": "ignitor-up-open",
+    "code": "&#xe940"
+  },
+  {
+    "name": "ignitor-down-open-mini",
+    "code": "&#xe941"
+  },
+  {
+    "name": "ignitor-left-open-mini",
+    "code": "&#xe942"
+  },
+  {
+    "name": "ignitor-right-open-mini",
+    "code": "&#xe943"
+  },
+  {
+    "name": "ignitor-up-open-mini",
+    "code": "&#xe944"
+  },
+  {
+    "name": "ignitor-down-open-big",
+    "code": "&#xe945"
+  },
+  {
+    "name": "ignitor-left-open-big",
+    "code": "&#xe946"
+  },
+  {
+    "name": "ignitor-up-open-big",
+    "code": "&#xe947"
+  },
+  {
+    "name": "ignitor-down",
+    "code": "&#xe948"
+  },
+  {
+    "name": "ignitor-left",
+    "code": "&#xe949"
+  },
+  {
+    "name": "ignitor-right",
+    "code": "&#xe950"
+  },
+  {
+    "name": "ignitor-up",
+    "code": "&#xe951"
+  },
+  {
+    "name": "ignitor-down-dir",
+    "code": "&#xe952"
+  },
+  {
+    "name": "ignitor-left-dir",
+    "code": "&#xe953"
+  },
+  {
+    "name": "ignitor-right-dir",
+    "code": "&#xe954"
+  },
+  {
+    "name": "ignitor-up-dir",
+    "code": "&#xe955"
+  },
+  {
+    "name": "ignitor-stackoverflow",
+    "code": "&#xe956"
+  },
+  {
+    "name": "ignitor-angellist",
+    "code": "&#xe957"
+  },
+  {
+    "name": "ignitor-buffer",
+    "code": "&#xe958"
+  },
+  {
+    "name": "ignitor-bitbucket",
+    "code": "&#xe959"
+  },
+  {
+    "name": "ignitor-down-thin",
+    "code": "&#xe960"
+  },
+  {
+    "name": "ignitor-left-thin",
+    "code": "&#xe961"
+  },
+  {
+    "name": "ignitor-right-thin",
+    "code": "&#xe962"
+  },
+  {
+    "name": "ignitor-up-thin",
+    "code": "&#xe963"
+  },
+  {
+    "name": "ignitor-ccw",
+    "code": "&#xe964"
+  },
+  {
+    "name": "ignitor-cw",
+    "code": "&#xe965"
+  },
+  {
+    "name": "ignitor-arrows-ccw",
+    "code": "&#xe966"
+  },
+  {
+    "name": "ignitor-level-down",
+    "code": "&#xe967"
+  },
+  {
+    "name": "ignitor-level-up",
+    "code": "&#xe968"
+  },
+  {
+    "name": "ignitor-shuffle",
+    "code": "&#xe969"
+  },
+  {
+    "name": "ignitor-loop",
+    "code": "&#xe970"
+  },
+  {
+    "name": "ignitor-switch",
+    "code": "&#xe971"
+  },
+  {
+    "name": "ignitor-play",
+    "code": "&#xe972"
+  },
+  {
+    "name": "ignitor-stop",
+    "code": "&#xe973"
+  },
+  {
+    "name": "ignitor-pause",
+    "code": "&#xe974"
+  },
+  {
+    "name": "ignitor-record",
+    "code": "&#xe975"
+  },
+  {
+    "name": "ignitor-to-end",
+    "code": "&#xe976"
+  },
+  {
+    "name": "ignitor-to-start",
+    "code": "&#xe977"
+  },
+  {
+    "name": "ignitor-fast-forward",
+    "code": "&#xe978"
+  },
+  {
+    "name": "ignitor-fast-backward",
+    "code": "&#xe979"
+  },
+  {
+    "name": "ignitor-wordpress",
+    "code": "&#xe980"
+  },
+  {
+    "name": "ignitor-progress-low",
+    "code": "&#xe981"
+  },
+  {
+    "name": "ignitor-progress-half",
+    "code": "&#xe982"
+  },
+  {
+    "name": "ignitor-progress-full",
+    "code": "&#xe983"
+  },
+  {
+    "name": "ignitor-target",
+    "code": "&#xe984"
+  },
+  {
+    "name": "ignitor-amazon",
+    "code": "&#xe985"
+  },
+  {
+    "name": "ignitor-list",
+    "code": "&#xe986"
+  },
+  {
+    "name": "ignitor-html5",
+    "code": "&#xe987"
+  },
+  {
+    "name": "ignitor-wifi",
+    "code": "&#xe988"
+  },
+  {
+    "name": "ignitor-trophy",
+    "code": "&#xe989"
+  },
+  {
+    "name": "ignitor-battery",
+    "code": "&#xe990"
+  },
+  {
+    "name": "ignitor-back-in-time",
+    "code": "&#xe991"
+  },
+  {
+    "name": "ignitor-monitor",
+    "code": "&#xe992"
+  },
+  {
+    "name": "ignitor-mobile",
+    "code": "&#xe993"
+  },
+  {
+    "name": "ignitor-w3c",
+    "code": "&#xe994"
+  },
+  {
+    "name": "ignitor-calendar",
+    "code": "&#xe995"
+  },
+  {
+    "name": "ignitor-git",
+    "code": "&#xe996"
+  },
+  {
+    "name": "ignitor-headphones",
+    "code": "&#xe997"
+  },
+  {
+    "name": "ignitor-road",
+    "code": "&#xe998"
+  },
+  {
+    "name": "ignitor-briefcase",
+    "code": "&#xe999"
+  },
+  {
+    "name": "ignitor-indent-right",
+    "code": "&#xe1000"
+  },
+  {
+    "name": "ignitor-flash",
+    "code": "&#xe1001"
+  },
+  {
+    "name": "ignitor-moon",
+    "code": "&#xe1002"
+  },
+  {
+    "name": "ignitor-plane",
+    "code": "&#xe1003"
+  },
+  {
+    "name": "ignitor-paper-plane",
+    "code": "&#xe1004"
+  },
+  {
+    "name": "ignitor-leaf",
+    "code": "&#xe1005"
+  },
+  {
+    "name": "ignitor-indent-left",
+    "code": "&#xe1006"
+  },
+  {
+    "name": "ignitor-credit-card-light",
+    "code": "&#xe1007"
+  },
+  {
+    "name": "ignitor-suitcase",
+    "code": "&#xe1008"
+  },
+  {
+    "name": "ignitor-dot",
+    "code": "&#xe1009"
+  },
+  {
+    "name": "ignitor-dot-2",
+    "code": "&#xe1010"
+  },
+  {
+    "name": "ignitor-dot-3",
+    "code": "&#xe1011"
+  },
+  {
+    "name": "ignitor-brush",
+    "code": "&#xe1012"
+  },
+  {
+    "name": "ignitor-magnet",
+    "code": "&#xe1013"
+  },
+  {
+    "name": "ignitor-infinity",
+    "code": "&#xe1014"
+  },
+  {
+    "name": "ignitor-erase",
+    "code": "&#xe1015"
+  },
+  {
+    "name": "ignitor-chart-pie",
+    "code": "&#xe1016"
+  },
+  {
+    "name": "ignitor-chart-line",
+    "code": "&#xe1017"
+  },
+  {
+    "name": "ignitor-chart-bar",
+    "code": "&#xe1018"
+  },
+  {
+    "name": "ignitor-chart-area",
+    "code": "&#xe1019"
+  },
+  {
+    "name": "ignitor-magnet-link",
+    "code": "&#xe1020"
+  },
+  {
+    "name": "ignitor-graduation-cap",
+    "code": "&#xe1021"
+  },
+  {
+    "name": "ignitor-language",
+    "code": "&#xe1022"
+  },
+  {
+    "name": "ignitor-ticket",
+    "code": "&#xe1023"
+  },
+  {
+    "name": "ignitor-water",
+    "code": "&#xe1024"
+  },
+  {
+    "name": "ignitor-droplet",
+    "code": "&#xe1025"
+  },
+  {
+    "name": "ignitor-air",
+    "code": "&#xe1026"
+  },
+  {
+    "name": "ignitor-credit-card",
+    "code": "&#xe1027"
+  },
+  {
+    "name": "ignitor-floppy",
+    "code": "&#xe1028"
+  },
+  {
+    "name": "ignitor-clipboard",
+    "code": "&#xe1029"
+  },
+  {
+    "name": "ignitor-megaphone",
+    "code": "&#xe1030"
+  },
+  {
+    "name": "ignitor-database",
+    "code": "&#xe1031"
+  },
+  {
+    "name": "ignitor-drive",
+    "code": "&#xe1032"
+  },
+  {
+    "name": "ignitor-bucket",
+    "code": "&#xe1033"
+  },
+  {
+    "name": "ignitor-thermometer",
+    "code": "&#xe1034"
+  },
+  {
+    "name": "ignitor-key",
+    "code": "&#xe1035"
+  },
+  {
+    "name": "ignitor-flow-cascade",
+    "code": "&#xe1036"
+  },
+  {
+    "name": "ignitor-flow-branch",
+    "code": "&#xe1037"
+  },
+  {
+    "name": "ignitor-flow-tree",
+    "code": "&#xe1038"
+  },
+  {
+    "name": "ignitor-flow-line",
+    "code": "&#xe1039"
+  },
+  {
+    "name": "ignitor-flow-parallel",
+    "code": "&#xe1040"
+  },
+  {
+    "name": "ignitor-rocket",
+    "code": "&#xe1041"
+  },
+  {
+    "name": "ignitor-gauge",
+    "code": "&#xe1042"
+  },
+  {
+    "name": "ignitor-traffic-cone",
+    "code": "&#xe1043"
+  },
+  {
+    "name": "ignitor-gift",
+    "code": "&#xe1044"
+  },
+  {
+    "name": "ignitor-braille",
+    "code": "&#xe1045"
+  },
+  {
+    "name": "ignitor-flight",
+    "code": "&#xe1046"
+  },
+  {
+    "name": "ignitor-s",
+    "code": "&#xe1047"
+  },
+  {
+    "name": "ignal",
+    "code": "&#xe1048"
+  },
+  {
+    "name": "ignitor-qrcode",
+    "code": "&#xe1049"
+  },
+  {
+    "name": "ignitor-barcode",
+    "code": "&#xe1050"
+  },
+  {
+    "name": "ignitor-diamond",
+    "code": "&#xe1051"
+  },
+  {
+    "name": "ignitor-shop",
+    "code": "&#xe1052"
+  },
+  {
+    "name": "ignitor-money",
+    "code": "&#xe1053"
+  },
+  {
+    "name": "ignitor-truck",
+    "code": "&#xe1054"
+  },
+  {
+    "name": "ignitor-setting",
+    "code": "&#xe1055"
+  },
+  {
+    "name": "ignitor-database-light",
+    "code": "&#xe1056"
+  },
+  {
+    "name": "ignitor-progress-0",
+    "code": "&#xe1057"
+  },
+  {
+    "name": "ignitor-progress-1",
+    "code": "&#xe1058"
+  },
+  {
+    "name": "ignitor-progress-2",
+    "code": "&#xe1059"
+  },
+  {
+    "name": "ignitor-progress-3",
+    "code": "&#xe1060"
+  },
+  {
+    "name": "ignitor-progress-4",
+    "code": "&#xe1061"
+  },
+  {
+    "name": "ignitor-progress-5",
+    "code": "&#xe1062"
+  },
+  {
+    "name": "ignitor-progress-6",
+    "code": "&#xe1063"
+  },
+  {
+    "name": "ignitor-progress-7",
+    "code": "&#xe1064"
+  },
+  {
+    "name": "ignitor-terminal",
+    "code": "&#xe1065"
+  },
+  {
+    "name": "ignitor-ok-circle",
+    "code": "&#xe1066"
+  },
+  {
+    "name": "ignitor-github",
+    "code": "&#xe1067"
+  },
+  {
+    "name": "ignitor-github-circled",
+    "code": "&#xe1068"
+  },
+  {
+    "name": "ignitor-flickr",
+    "code": "&#xe1069"
+  },
+  {
+    "name": "ignitor-flickr-circled",
+    "code": "&#xe1070"
+  },
+  {
+    "name": "ignitor-vimeo",
+    "code": "&#xe1071"
+  },
+  {
+    "name": "ignitor-vimeo-circled",
+    "code": "&#xe1072"
+  },
+  {
+    "name": "ignitor-twitter",
+    "code": "&#xe1073"
+  },
+  {
+    "name": "ignitor-twitter-circled",
+    "code": "&#xe1074"
+  },
+  {
+    "name": "ignitor-facebook",
+    "code": "&#xe1075"
+  },
+  {
+    "name": "ignitor-facebook-circled",
+    "code": "&#xe1076"
+  },
+  {
+    "name": "ignitor-facebook-squared",
+    "code": "&#xe1077"
+  },
+  {
+    "name": "ignitor-gplus",
+    "code": "&#xe1078"
+  },
+  {
+    "name": "ignitor-pinterest",
+    "code": "&#xe1079"
+  },
+  {
+    "name": "ignitor-pinterest-circled",
+    "code": "&#xe1080"
+  },
+  {
+    "name": "ignitor-linkedin",
+    "code": "&#xe1081"
+  },
+  {
+    "name": "ignitor-linkedin-circled",
+    "code": "&#xe1082"
+  },
+  {
+    "name": "ignitor-dribbble",
+    "code": "&#xe1083"
+  },
+  {
+    "name": "ignitor-windows",
+    "code": "&#xe1084"
+  },
+  {
+    "name": "ignitor-instagram",
+    "code": "&#xe1085"
+  },
+  {
+    "name": "ignitor-dropbox",
+    "code": "&#xe1086"
+  },
+  {
+    "name": "ignitor-skype",
+    "code": "&#xe1087"
+  },
+  {
+    "name": "ignitor-skype-circled",
+    "code": "&#xe1088"
+  },
+  {
+    "name": "ignitor-picasa",
+    "code": "&#xe1089"
+  },
+  {
+    "name": "ignitor-soundcloud",
+    "code": "&#xe1090"
+  },
+  {
+    "name": "ignitor-behance",
+    "code": "&#xe1091"
+  },
+  {
+    "name": "ignitor-google-circles",
+    "code": "&#xe1092"
+  },
+  {
+    "name": "ignitor-vkontakte",
+    "code": "&#xe1093"
+  }
+]
