@@ -1,0 +1,1467 @@
+[
+  {
+    "category": "",
+    "code": "xe800",
+    "name": "ignitor-emo-happy"
+  },
+  {
+    "category": "",
+    "code": "xe801",
+    "name": "ignitor-emo-left"
+  },
+  {
+    "category": "",
+    "code": "xe802",
+    "name": "ignitor-emo-unhappy"
+  },
+  {
+    "category": "",
+    "code": "xe803",
+    "name": "ignitor-emo-sleep"
+  },
+  {
+    "category": "",
+    "code": "xe805",
+    "name": "ignitor-emo-devil"
+  },
+  {
+    "category": "",
+    "code": "xe806",
+    "name": "ignitor-emo-surprised"
+  },
+  {
+    "category": "",
+    "code": "xe807",
+    "name": "ignitor-emo-tongue"
+  },
+  {
+    "category": "",
+    "code": "xe809",
+    "name": "ignitor-emo-sunglasses"
+  },
+  {
+    "category": "",
+    "code": "xe80a",
+    "name": "ignitor-emo-displeased"
+  },
+  {
+    "category": "",
+    "code": "xe80c",
+    "name": "ignitor-emo-grin"
+  },
+  {
+    "category": "",
+    "code": "xe80d",
+    "name": "ignitor-emo-angry"
+  },
+  {
+    "category": "",
+    "code": "xe80e",
+    "name": "ignitor-emo-saint"
+  },
+  {
+    "category": "",
+    "code": "xe80f",
+    "name": "ignitor-emo-cry"
+  },
+  {
+    "category": "",
+    "code": "xe811",
+    "name": "ignitor-emo-squint"
+  },
+  {
+    "category": "",
+    "code": "xe812",
+    "name": "ignitor-emo-laugh"
+  },
+  {
+    "category": "",
+    "code": "xe813",
+    "name": "ignitor-emo-right"
+  },
+  {
+    "category": "",
+    "code": "xe814",
+    "name": "ignitor-user"
+  },
+  {
+    "category": "",
+    "code": "xe815",
+    "name": "ignitor-users"
+  },
+  {
+    "category": "",
+    "code": "xe816",
+    "name": "ignitor-user-add"
+  },
+  {
+    "category": "",
+    "code": "xe817",
+    "name": "ignitor-star"
+  },
+  {
+    "category": "",
+    "code": "xe818",
+    "name": "ignitor-star-empty"
+  },
+  {
+    "category": "",
+    "code": "xe819",
+    "name": "ignitor-heart"
+  },
+  {
+    "category": "",
+    "code": "xe81a",
+    "name": "ignitor-heart-empty"
+  },
+  {
+    "category": "",
+    "code": "xe81b",
+    "name": "ignitor-mail"
+  },
+  {
+    "category": "",
+    "code": "xe81c",
+    "name": "ignitor-flashlight"
+  },
+  {
+    "category": "",
+    "code": "xe81d",
+    "name": "ignitor-search"
+  },
+  {
+    "category": "",
+    "code": "xe81e",
+    "name": "ignitor-cancel-circled"
+  },
+  {
+    "category": "",
+    "code": "xe81f",
+    "name": "ignitor-cancel-squared"
+  },
+  {
+    "category": "",
+    "code": "xe820",
+    "name": "ignitor-plus"
+  },
+  {
+    "category": "",
+    "code": "xe821",
+    "name": "ignitor-plus-circled"
+  },
+  {
+    "category": "",
+    "code": "xe822",
+    "name": "ignitor-plus-squared"
+  },
+  {
+    "category": "",
+    "code": "xe823",
+    "name": "ignitor-minus"
+  },
+  {
+    "category": "",
+    "code": "xe824",
+    "name": "ignitor-minus-circled"
+  },
+  {
+    "category": "",
+    "code": "xe825",
+    "name": "ignitor-minus-squared"
+  },
+  {
+    "category": "",
+    "code": "xe826",
+    "name": "ignitor-info-circled"
+  },
+  {
+    "category": "",
+    "code": "xe827",
+    "name": "ignitor-info"
+  },
+  {
+    "category": "",
+    "code": "xe828",
+    "name": "ignitor-home"
+  },
+  {
+    "category": "",
+    "code": "xe829",
+    "name": "ignitor-link"
+  },
+  {
+    "category": "",
+    "code": "xe82a",
+    "name": "ignitor-attach"
+  },
+  {
+    "category": "",
+    "code": "xe82b",
+    "name": "ignitor-video"
+  },
+  {
+    "category": "",
+    "code": "xe82c",
+    "name": "ignitor-layout"
+  },
+  {
+    "category": "",
+    "code": "xe82d",
+    "name": "ignitor-menu"
+  },
+  {
+    "category": "",
+    "code": "xe82e",
+    "name": "ignitor-check"
+  },
+  {
+    "category": "",
+    "code": "xe82f",
+    "name": "ignitor-cancel"
+  },
+  {
+    "category": "",
+    "code": "xe833",
+    "name": "ignitor-eye"
+  },
+  {
+    "category": "",
+    "code": "xe834",
+    "name": "ignitor-spin-double"
+  },
+  {
+    "category": "",
+    "code": "xe835",
+    "name": "ignitor-lock-open"
+  },
+  {
+    "category": "",
+    "code": "xe836",
+    "name": "ignitor-lock"
+  },
+  {
+    "category": "",
+    "code": "xe837",
+    "name": "ignitor-tag"
+  },
+  {
+    "category": "",
+    "code": "xe838",
+    "name": "ignitor-loader"
+  },
+  {
+    "category": "",
+    "code": "xe839",
+    "name": "ignitor-loader-single"
+  },
+  {
+    "category": "",
+    "code": "xe83a",
+    "name": "ignitor-thick-right"
+  },
+  {
+    "category": "",
+    "code": "xe83b",
+    "name": "ignitor-thick-up"
+  },
+  {
+    "category": "",
+    "code": "xe83c",
+    "name": "ignitor-flag"
+  },
+  {
+    "category": "",
+    "code": "xe83d",
+    "name": "ignitor-thumbs-up"
+  },
+  {
+    "category": "",
+    "code": "xe83e",
+    "name": "ignitor-thumbs-down"
+  },
+  {
+    "category": "",
+    "code": "xe83f",
+    "name": "ignitor-download"
+  },
+  {
+    "category": "",
+    "code": "xe840",
+    "name": "ignitor-firefox"
+  },
+  {
+    "category": "",
+    "code": "xe841",
+    "name": "ignitor-chrome"
+  },
+  {
+    "category": "",
+    "code": "xe842",
+    "name": "ignitor-opera"
+  },
+  {
+    "category": "",
+    "code": "xe843",
+    "name": "ignitor-ie"
+  },
+  {
+    "category": "",
+    "code": "xe844",
+    "name": "ignitor-crown"
+  },
+  {
+    "category": "",
+    "code": "xe845",
+    "name": "ignitor-crown-plus"
+  },
+  {
+    "category": "",
+    "code": "xe846",
+    "name": "ignitor-crown-minus"
+  },
+  {
+    "category": "",
+    "code": "xe847",
+    "name": "ignitor-marquee"
+  },
+  {
+    "category": "",
+    "code": "xe848",
+    "name": "ignitor-upload"
+  },
+  {
+    "category": "",
+    "code": "xe849",
+    "name": "ignitor-upload-cloud"
+  },
+  {
+    "category": "",
+    "code": "xe84a",
+    "name": "ignitor-reply"
+  },
+  {
+    "category": "",
+    "code": "xe84b",
+    "name": "ignitor-reply-all"
+  },
+  {
+    "category": "",
+    "code": "xe84c",
+    "name": "ignitor-forward"
+  },
+  {
+    "category": "",
+    "code": "xe84d",
+    "name": "ignitor-quote"
+  },
+  {
+    "category": "",
+    "code": "xe84e",
+    "name": "ignitor-code"
+  },
+  {
+    "category": "",
+    "code": "xe84f",
+    "name": "ignitor-export"
+  },
+  {
+    "category": "",
+    "code": "xe850",
+    "name": "ignitor-pencil"
+  },
+  {
+    "category": "",
+    "code": "xe851",
+    "name": "ignitor-feather"
+  },
+  {
+    "category": "",
+    "code": "xe852",
+    "name": "ignitor-print"
+  },
+  {
+    "category": "",
+    "code": "xe853",
+    "name": "ignitor-retweet"
+  },
+  {
+    "category": "",
+    "code": "xe854",
+    "name": "ignitor-keyboard"
+  },
+  {
+    "category": "",
+    "code": "xe855",
+    "name": "ignitor-comment"
+  },
+  {
+    "category": "",
+    "code": "xe856",
+    "name": "ignitor-chat"
+  },
+  {
+    "category": "",
+    "code": "xe857",
+    "name": "ignitor-bell"
+  },
+  {
+    "category": "",
+    "code": "xe858",
+    "name": "ignitor-attention"
+  },
+  {
+    "category": "",
+    "code": "xe859",
+    "name": "ignitor-thick-down"
+  },
+  {
+    "category": "",
+    "code": "xe85a",
+    "name": "ignitor-thick-left"
+  },
+  {
+    "category": "",
+    "code": "xe85b",
+    "name": "ignitor-umbrella"
+  },
+  {
+    "category": "",
+    "code": "xe85c",
+    "name": "ignitor-location"
+  },
+  {
+    "category": "",
+    "code": "xe85d",
+    "name": "ignitor-map"
+  },
+  {
+    "category": "",
+    "code": "xe85e",
+    "name": "ignitor-direction"
+  },
+  {
+    "category": "",
+    "code": "xe85f",
+    "name": "ignitor-compass"
+  },
+  {
+    "category": "",
+    "code": "xe860",
+    "name": "ignitor-cup"
+  },
+  {
+    "category": "",
+    "code": "xe861",
+    "name": "ignitor-trash"
+  },
+  {
+    "category": "",
+    "code": "xe862",
+    "name": "ignitor-tower"
+  },
+  {
+    "category": "",
+    "code": "xe863",
+    "name": "ignitor-videocam"
+  },
+  {
+    "category": "",
+    "code": "xe864",
+    "name": "ignitor-ok"
+  },
+  {
+    "category": "",
+    "code": "xe865",
+    "name": "ignitor-trash-bin"
+  },
+  {
+    "category": "",
+    "code": "xe866",
+    "name": "ignitor-location-marker"
+  },
+  {
+    "category": "",
+    "code": "xe867",
+    "name": "ignitor-bullhorn"
+  },
+  {
+    "category": "",
+    "code": "xe868",
+    "name": "ignitor-volume-up"
+  },
+  {
+    "category": "",
+    "code": "xe869",
+    "name": "ignitor-volume-down"
+  },
+  {
+    "category": "",
+    "code": "xe86a",
+    "name": "ignitor-folder"
+  },
+  {
+    "category": "",
+    "code": "xe86b",
+    "name": "ignitor-archive"
+  },
+  {
+    "category": "",
+    "code": "xe86c",
+    "name": "ignitor-box"
+  },
+  {
+    "category": "",
+    "code": "xe86d",
+    "name": "ignitor-rss"
+  },
+  {
+    "category": "",
+    "code": "xe86e",
+    "name": "ignitor-phone"
+  },
+  {
+    "category": "",
+    "code": "xe86f",
+    "name": "ignitor-cog"
+  },
+  {
+    "category": "",
+    "code": "xe870",
+    "name": "ignitor-tools"
+  },
+  {
+    "category": "",
+    "code": "xe871",
+    "name": "ignitor-share"
+  },
+  {
+    "category": "",
+    "code": "xe872",
+    "name": "ignitor-volume-off"
+  },
+  {
+    "category": "",
+    "code": "xe873",
+    "name": "ignitor-basket"
+  },
+  {
+    "category": "",
+    "code": "xe874",
+    "name": "ignitor-bag"
+  },
+  {
+    "category": "",
+    "code": "xe875",
+    "name": "ignitor-award"
+  },
+  {
+    "category": "",
+    "code": "xe876",
+    "name": "ignitor-login"
+  },
+  {
+    "category": "",
+    "code": "xe877",
+    "name": "ignitor-logout"
+  },
+  {
+    "category": "",
+    "code": "xe878",
+    "name": "ignitor-mic"
+  },
+  {
+    "category": "",
+    "code": "xe879",
+    "name": "ignitor-mute"
+  },
+  {
+    "category": "",
+    "code": "xe87a",
+    "name": "ignitor-sound"
+  },
+  {
+    "category": "",
+    "code": "xe87b",
+    "name": "ignitor-globe"
+  },
+  {
+    "category": "",
+    "code": "xe87c",
+    "name": "ignitor-clock"
+  },
+  {
+    "category": "",
+    "code": "xe87d",
+    "name": "ignitor-hourglass"
+  },
+  {
+    "category": "",
+    "code": "xe87e",
+    "name": "ignitor-lamp"
+  },
+  {
+    "category": "",
+    "code": "xe87f",
+    "name": "ignitor-light-down"
+  },
+  {
+    "category": "",
+    "code": "xe880",
+    "name": "ignitor-light-up"
+  },
+  {
+    "category": "",
+    "code": "xe881",
+    "name": "ignitor-adjust"
+  },
+  {
+    "category": "",
+    "code": "xe882",
+    "name": "ignitor-block"
+  },
+  {
+    "category": "",
+    "code": "xe883",
+    "name": "ignitor-resize-full"
+  },
+  {
+    "category": "",
+    "code": "xe884",
+    "name": "ignitor-resize-small"
+  },
+  {
+    "category": "",
+    "code": "xe885",
+    "name": "ignitor-popup"
+  },
+  {
+    "category": "",
+    "code": "xe886",
+    "name": "ignitor-th"
+  },
+  {
+    "category": "",
+    "code": "xe887",
+    "name": "ignitor-youtube"
+  },
+  {
+    "category": "",
+    "code": "xe888",
+    "name": "ignitor-arrow-combo"
+  },
+  {
+    "category": "",
+    "code": "xe889",
+    "name": "ignitor-down-circled"
+  },
+  {
+    "category": "",
+    "code": "xe88a",
+    "name": "ignitor-left-circled"
+  },
+  {
+    "category": "",
+    "code": "xe88b",
+    "name": "ignitor-right-circled"
+  },
+  {
+    "category": "",
+    "code": "xe88c",
+    "name": "ignitor-up-circled"
+  },
+  {
+    "category": "",
+    "code": "xe88d",
+    "name": "ignitor-down-open"
+  },
+  {
+    "category": "",
+    "code": "xe88e",
+    "name": "ignitor-left-open"
+  },
+  {
+    "category": "",
+    "code": "xe88f",
+    "name": "ignitor-right-open"
+  },
+  {
+    "category": "",
+    "code": "xe890",
+    "name": "ignitor-up-open"
+  },
+  {
+    "category": "",
+    "code": "xe891",
+    "name": "ignitor-down-open-mini"
+  },
+  {
+    "category": "",
+    "code": "xe892",
+    "name": "ignitor-left-open-mini"
+  },
+  {
+    "category": "",
+    "code": "xe893",
+    "name": "ignitor-right-open-mini"
+  },
+  {
+    "category": "",
+    "code": "xe894",
+    "name": "ignitor-up-open-mini"
+  },
+  {
+    "category": "",
+    "code": "xe895",
+    "name": "ignitor-down-open-big"
+  },
+  {
+    "category": "",
+    "code": "xe896",
+    "name": "ignitor-left-open-big"
+  },
+  {
+    "category": "",
+    "code": "xe898",
+    "name": "ignitor-up-open-big"
+  },
+  {
+    "category": "",
+    "code": "xe899",
+    "name": "ignitor-down"
+  },
+  {
+    "category": "",
+    "code": "xe89a",
+    "name": "ignitor-left"
+  },
+  {
+    "category": "",
+    "code": "xe89b",
+    "name": "ignitor-right"
+  },
+  {
+    "category": "",
+    "code": "xe89c",
+    "name": "ignitor-up"
+  },
+  {
+    "category": "",
+    "code": "xe89d",
+    "name": "ignitor-down-dir"
+  },
+  {
+    "category": "",
+    "code": "xe89e",
+    "name": "ignitor-left-dir"
+  },
+  {
+    "category": "",
+    "code": "xe89f",
+    "name": "ignitor-right-dir"
+  },
+  {
+    "category": "",
+    "code": "xe8a0",
+    "name": "ignitor-up-dir"
+  },
+  {
+    "category": "",
+    "code": "xe8a1",
+    "name": "ignitor-stackoverflow"
+  },
+  {
+    "category": "",
+    "code": "xe8a2",
+    "name": "ignitor-angellist"
+  },
+  {
+    "category": "",
+    "code": "xe8a3",
+    "name": "ignitor-buffer"
+  },
+  {
+    "category": "",
+    "code": "xe8a4",
+    "name": "ignitor-bitbucket"
+  },
+  {
+    "category": "",
+    "code": "xe8a5",
+    "name": "ignitor-down-thin"
+  },
+  {
+    "category": "",
+    "code": "xe8a6",
+    "name": "ignitor-left-thin"
+  },
+  {
+    "category": "",
+    "code": "xe8a7",
+    "name": "ignitor-right-thin"
+  },
+  {
+    "category": "",
+    "code": "xe8a8",
+    "name": "ignitor-up-thin"
+  },
+  {
+    "category": "",
+    "code": "xe8a9",
+    "name": "ignitor-ccw"
+  },
+  {
+    "category": "",
+    "code": "xe8aa",
+    "name": "ignitor-cw"
+  },
+  {
+    "category": "",
+    "code": "xe8ab",
+    "name": "ignitor-arrows-ccw"
+  },
+  {
+    "category": "",
+    "code": "xe8ac",
+    "name": "ignitor-level-down"
+  },
+  {
+    "category": "",
+    "code": "xe8ad",
+    "name": "ignitor-level-up"
+  },
+  {
+    "category": "",
+    "code": "xe8ae",
+    "name": "ignitor-shuffle"
+  },
+  {
+    "category": "",
+    "code": "xe8af",
+    "name": "ignitor-loop"
+  },
+  {
+    "category": "",
+    "code": "xe8b0",
+    "name": "ignitor-switch"
+  },
+  {
+    "category": "",
+    "code": "xe8b1",
+    "name": "ignitor-play"
+  },
+  {
+    "category": "",
+    "code": "xe8b2",
+    "name": "ignitor-stop"
+  },
+  {
+    "category": "",
+    "code": "xe8b3",
+    "name": "ignitor-pause"
+  },
+  {
+    "category": "",
+    "code": "xe8b4",
+    "name": "ignitor-record"
+  },
+  {
+    "category": "",
+    "code": "xe8b5",
+    "name": "ignitor-to-end"
+  },
+  {
+    "category": "",
+    "code": "xe8b6",
+    "name": "ignitor-to-start"
+  },
+  {
+    "category": "",
+    "code": "xe8b7",
+    "name": "ignitor-fast-forward"
+  },
+  {
+    "category": "",
+    "code": "xe8b8",
+    "name": "ignitor-fast-backward"
+  },
+  {
+    "category": "",
+    "code": "xe8b9",
+    "name": "ignitor-wordpress"
+  },
+  {
+    "category": "",
+    "code": "xe8ba",
+    "name": "ignitor-progress-low"
+  },
+  {
+    "category": "",
+    "code": "xe8bb",
+    "name": "ignitor-progress-half"
+  },
+  {
+    "category": "",
+    "code": "xe8bc",
+    "name": "ignitor-progress-full"
+  },
+  {
+    "category": "",
+    "code": "xe8bd",
+    "name": "ignitor-target"
+  },
+  {
+    "category": "",
+    "code": "xe8be",
+    "name": "ignitor-amazon"
+  },
+  {
+    "category": "",
+    "code": "xe8bf",
+    "name": "ignitor-list"
+  },
+  {
+    "category": "",
+    "code": "xe8c0",
+    "name": "ignitor-html5"
+  },
+  {
+    "category": "",
+    "code": "xe8c1",
+    "name": "ignitor-wifi"
+  },
+  {
+    "category": "",
+    "code": "xe8c2",
+    "name": "ignitor-trophy"
+  },
+  {
+    "category": "",
+    "code": "xe8c3",
+    "name": "ignitor-battery"
+  },
+  {
+    "category": "",
+    "code": "xe8c4",
+    "name": "ignitor-back-in-time"
+  },
+  {
+    "category": "",
+    "code": "xe8c5",
+    "name": "ignitor-monitor"
+  },
+  {
+    "category": "",
+    "code": "xe8c6",
+    "name": "ignitor-mobile"
+  },
+  {
+    "category": "",
+    "code": "xe8c7",
+    "name": "ignitor-w3c"
+  },
+  {
+    "category": "",
+    "code": "xe8c8",
+    "name": "ignitor-calendar"
+  },
+  {
+    "category": "",
+    "code": "xe8c9",
+    "name": "ignitor-git"
+  },
+  {
+    "category": "",
+    "code": "xe8ca",
+    "name": "ignitor-headphones"
+  },
+  {
+    "category": "",
+    "code": "xe8cb",
+    "name": "ignitor-road"
+  },
+  {
+    "category": "",
+    "code": "xe8cc",
+    "name": "ignitor-briefcase"
+  },
+  {
+    "category": "",
+    "code": "xe8cd",
+    "name": "ignitor-indent-right"
+  },
+  {
+    "category": "",
+    "code": "xe8ce",
+    "name": "ignitor-flash"
+  },
+  {
+    "category": "",
+    "code": "xe8cf",
+    "name": "ignitor-moon"
+  },
+  {
+    "category": "",
+    "code": "xe8d0",
+    "name": "ignitor-plane"
+  },
+  {
+    "category": "",
+    "code": "xe8d1",
+    "name": "ignitor-paper-plane"
+  },
+  {
+    "category": "",
+    "code": "xe8d2",
+    "name": "ignitor-leaf"
+  },
+  {
+    "category": "",
+    "code": "xe8d3",
+    "name": "ignitor-indent-left"
+  },
+  {
+    "category": "",
+    "code": "xe8d4",
+    "name": "ignitor-credit-card-light"
+  },
+  {
+    "category": "",
+    "code": "xe8d6",
+    "name": "ignitor-suitcase"
+  },
+  {
+    "category": "",
+    "code": "xe8d7",
+    "name": "ignitor-dot"
+  },
+  {
+    "category": "",
+    "code": "xe8d8",
+    "name": "ignitor-dot-2"
+  },
+  {
+    "category": "",
+    "code": "xe8d9",
+    "name": "ignitor-dot-3"
+  },
+  {
+    "category": "",
+    "code": "xe8da",
+    "name": "ignitor-brush"
+  },
+  {
+    "category": "",
+    "code": "xe8db",
+    "name": "ignitor-magnet"
+  },
+  {
+    "category": "",
+    "code": "xe8dc",
+    "name": "ignitor-infinity"
+  },
+  {
+    "category": "",
+    "code": "xe8dd",
+    "name": "ignitor-erase"
+  },
+  {
+    "category": "",
+    "code": "xe8de",
+    "name": "ignitor-chart-pie"
+  },
+  {
+    "category": "",
+    "code": "xe8df",
+    "name": "ignitor-chart-line"
+  },
+  {
+    "category": "",
+    "code": "xe8e0",
+    "name": "ignitor-chart-bar"
+  },
+  {
+    "category": "",
+    "code": "xe8e1",
+    "name": "ignitor-chart-area"
+  },
+  {
+    "category": "",
+    "code": "xe8e2",
+    "name": "ignitor-magnet-link"
+  },
+  {
+    "category": "",
+    "code": "xe8e3",
+    "name": "ignitor-graduation-cap"
+  },
+  {
+    "category": "",
+    "code": "xe8e4",
+    "name": "ignitor-language"
+  },
+  {
+    "category": "",
+    "code": "xe8e5",
+    "name": "ignitor-ticket"
+  },
+  {
+    "category": "",
+    "code": "xe8e6",
+    "name": "ignitor-water"
+  },
+  {
+    "category": "",
+    "code": "xe8e7",
+    "name": "ignitor-droplet"
+  },
+  {
+    "category": "",
+    "code": "xe8e8",
+    "name": "ignitor-air"
+  },
+  {
+    "category": "",
+    "code": "xe8e9",
+    "name": "ignitor-credit-card"
+  },
+  {
+    "category": "",
+    "code": "xe8ea",
+    "name": "ignitor-floppy"
+  },
+  {
+    "category": "",
+    "code": "xe8eb",
+    "name": "ignitor-clipboard"
+  },
+  {
+    "category": "",
+    "code": "xe8ec",
+    "name": "ignitor-megaphone"
+  },
+  {
+    "category": "",
+    "code": "xe8ed",
+    "name": "ignitor-database"
+  },
+  {
+    "category": "",
+    "code": "xe8ee",
+    "name": "ignitor-drive"
+  },
+  {
+    "category": "",
+    "code": "xe8ef",
+    "name": "ignitor-bucket"
+  },
+  {
+    "category": "",
+    "code": "xe8f0",
+    "name": "ignitor-thermometer"
+  },
+  {
+    "category": "",
+    "code": "xe8f1",
+    "name": "ignitor-key"
+  },
+  {
+    "category": "",
+    "code": "xe8f2",
+    "name": "ignitor-flow-cascade"
+  },
+  {
+    "category": "",
+    "code": "xe8f3",
+    "name": "ignitor-flow-branch"
+  },
+  {
+    "category": "",
+    "code": "xe8f4",
+    "name": "ignitor-flow-tree"
+  },
+  {
+    "category": "",
+    "code": "xe8f5",
+    "name": "ignitor-flow-line"
+  },
+  {
+    "category": "",
+    "code": "xe8f6",
+    "name": "ignitor-flow-parallel"
+  },
+  {
+    "category": "",
+    "code": "xe8f7",
+    "name": "ignitor-rocket"
+  },
+  {
+    "category": "",
+    "code": "xe8f8",
+    "name": "ignitor-gauge"
+  },
+  {
+    "category": "",
+    "code": "xe8f9",
+    "name": "ignitor-traffic-cone"
+  },
+  {
+    "category": "",
+    "code": "xe8fa",
+    "name": "ignitor-gift"
+  },
+  {
+    "category": "",
+    "code": "xe8fb",
+    "name": "ignitor-braille"
+  },
+  {
+    "category": "",
+    "code": "xe8fc",
+    "name": "ignitor-flight"
+  },
+  {
+    "category": "",
+    "code": "xe8fd",
+    "name": "ignitor-signal"
+  },
+  {
+    "category": "",
+    "code": "xe8fe",
+    "name": "ignitor-qrcode"
+  },
+  {
+    "category": "",
+    "code": "xe8ff",
+    "name": "ignitor-barcode"
+  },
+  {
+    "category": "",
+    "code": "xe900",
+    "name": "ignitor-diamond"
+  },
+  {
+    "category": "",
+    "code": "xe901",
+    "name": "ignitor-shop"
+  },
+  {
+    "category": "",
+    "code": "xe902",
+    "name": "ignitor-money"
+  },
+  {
+    "category": "",
+    "code": "xe903",
+    "name": "ignitor-truck"
+  },
+  {
+    "category": "",
+    "code": "xe904",
+    "name": "ignitor-setting"
+  },
+  {
+    "category": "",
+    "code": "xe905",
+    "name": "ignitor-database-light"
+  },
+  {
+    "category": "",
+    "code": "xe906",
+    "name": "ignitor-progress-0"
+  },
+  {
+    "category": "",
+    "code": "xe907",
+    "name": "ignitor-progress-1"
+  },
+  {
+    "category": "",
+    "code": "xe908",
+    "name": "ignitor-progress-2"
+  },
+  {
+    "category": "",
+    "code": "xe909",
+    "name": "ignitor-progress-3"
+  },
+  {
+    "category": "",
+    "code": "xe90a",
+    "name": "ignitor-progress-4"
+  },
+  {
+    "category": "",
+    "code": "xe90b",
+    "name": "ignitor-progress-5"
+  },
+  {
+    "category": "",
+    "code": "xe90c",
+    "name": "ignitor-progress-6"
+  },
+  {
+    "category": "",
+    "code": "xe90d",
+    "name": "ignitor-progress-7"
+  },
+  {
+    "category": "",
+    "code": "xe90e",
+    "name": "ignitor-terminal"
+  },
+  {
+    "category": "",
+    "code": "xe90f",
+    "name": "ignitor-ok-circle"
+  },
+  {
+    "category": "",
+    "code": "xf300",
+    "name": "ignitor-github"
+  },
+  {
+    "category": "",
+    "code": "xf301",
+    "name": "ignitor-github-circled"
+  },
+  {
+    "category": "",
+    "code": "xf303",
+    "name": "ignitor-flickr"
+  },
+  {
+    "category": "",
+    "code": "xf304",
+    "name": "ignitor-flickr-circled"
+  },
+  {
+    "category": "",
+    "code": "xf306",
+    "name": "ignitor-vimeo"
+  },
+  {
+    "category": "",
+    "code": "xf307",
+    "name": "ignitor-vimeo-circled"
+  },
+  {
+    "category": "",
+    "code": "xf309",
+    "name": "ignitor-twitter"
+  },
+  {
+    "category": "",
+    "code": "xf30a",
+    "name": "ignitor-twitter-circled"
+  },
+  {
+    "category": "",
+    "code": "xf30c",
+    "name": "ignitor-facebook"
+  },
+  {
+    "category": "",
+    "code": "xf30d",
+    "name": "ignitor-facebook-circled"
+  },
+  {
+    "category": "",
+    "code": "xf30e",
+    "name": "ignitor-facebook-squared"
+  },
+  {
+    "category": "",
+    "code": "xf30f",
+    "name": "ignitor-gplus"
+  },
+  {
+    "category": "",
+    "code": "xf312",
+    "name": "ignitor-pinterest"
+  },
+  {
+    "category": "",
+    "code": "xf313",
+    "name": "ignitor-pinterest-circled"
+  },
+  {
+    "category": "",
+    "code": "xf318",
+    "name": "ignitor-linkedin"
+  },
+  {
+    "category": "",
+    "code": "xf319",
+    "name": "ignitor-linkedin-circled"
+  },
+  {
+    "category": "",
+    "code": "xf31b",
+    "name": "ignitor-dribbble"
+  },
+  {
+    "category": "",
+    "code": "xf325",
+    "name": "ignitor-windows"
+  },
+  {
+    "category": "",
+    "code": "xf32d",
+    "name": "ignitor-instagram"
+  },
+  {
+    "category": "",
+    "code": "xf330",
+    "name": "ignitor-dropbox"
+  },
+  {
+    "category": "",
+    "code": "xf339",
+    "name": "ignitor-skype"
+  },
+  {
+    "category": "",
+    "code": "xf33a",
+    "name": "ignitor-skype-circled"
+  },
+  {
+    "category": "",
+    "code": "xf345",
+    "name": "ignitor-picasa"
+  },
+  {
+    "category": "",
+    "code": "xf348",
+    "name": "ignitor-soundcloud"
+  },
+  {
+    "category": "",
+    "code": "xf34e",
+    "name": "ignitor-behance"
+  },
+  {
+    "category": "",
+    "code": "xf351",
+    "name": "ignitor-google-circles"
+  },
+  {
+    "category": "",
+    "code": "xf354",
+    "name": "ignitor-vkontakte"
+  },
+  {
+    "category": "",
+    "code": "xe830",
+    "name": "ignitor-spin"
+  },
+  {
+    "category": "",
+    "code": "xe831",
+    "name": "ignitor-spin-multiple"
+  },
+  {
+    "category": "",
+    "code": "xe832",
+    "name": "ignitor-recycle"
+  }
+]

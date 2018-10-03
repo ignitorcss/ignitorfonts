@@ -3,15 +3,21 @@
   <head>
     <!--[if lt IE 9]><script language="javascript" type="text/javascript" src="//html5shim.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
     <title>Ignitor Fonts</title>
-    <meta charset="UTF-8">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="favicon.ico">
+    <meta name="theme-color" content="#313131">
+    <link rel="stylesheet" href="https://cdn.codejunkers.in/ignitorcss/v1.0.0/css/ignitor.min.css">
+    <link rel="stylesheet" href="https://cdn.codejunkers.in/css/style.css">
     <style>
     /*
- * IgnitorCSS v1.0.1
- *
- * Copyright 2018 Codejunkers
- * Licensed under the Apache License v2.0
- * http://www.apache.org/licenses/LICENSE-2.0
- */
+     * IgnitorCSS v1.0.1
+     *
+     * Copyright 2018 Codejunkers
+     * Licensed under the Apache License v2.0
+     * http://www.apache.org/licenses/LICENSE-2.0
+     */
 .clearfix {
   *zoom: 1;
 }
@@ -56,14 +62,14 @@ input::-moz-focus-inner {
   padding: 0;
   border: 0;
 }
-body {
+/*body {
   margin: 0;
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-size: 14px;
   line-height: 20px;
   color: #333;
   background-color: #fff;
-}
+}*/
 a {
   color: #08c;
   text-decoration: none;
@@ -72,7 +78,7 @@ a:hover {
   color: #005580;
   text-decoration: underline;
 }
-.row {
+/*.row {
   margin-left: -20px;
   *zoom: 1;
 }
@@ -84,13 +90,13 @@ a:hover {
 }
 .row:after {
   clear: both;
-}
+}*/
 [class*="span"] {
   float: left;
   min-height: 1px;
   margin-left: 20px;
 }
-.container,
+/*.container,*/
 .navbar-static-top .container,
 .navbar-fixed-top .container,
 .navbar-fixed-bottom .container {
@@ -136,7 +142,7 @@ a:hover {
 .row-fluid [class*="span"].pull-right {
   float: right;
 }
-.container {
+/*.container {
   margin-right: auto;
   margin-left: auto;
   *zoom: 1;
@@ -152,7 +158,7 @@ a:hover {
 }
 p {
   margin: 0 0 10px;
-}
+}*/
 .lead {
   margin-bottom: 20px;
   font-size: 21px;
@@ -162,7 +168,7 @@ p {
 small {
   font-size: 85%;
 }
-h1 {
+/*h1 {
   margin: 10px 0;
   font-family: inherit;
   font-weight: bold;
@@ -186,8 +192,8 @@ h1 small {
 }
 body {
   margin-top: 90px;
-}
-.header {
+}*/
+/*.header {
   position: fixed;
   top: 0;
   left: 50%;
@@ -196,15 +202,15 @@ body {
   border-bottom: 1px solid #ddd;
   padding-top: 10px;
   z-index: 10;
-}
+}*/
 .footer {
-  color: #ddd;
+  color: #313131;
   font-size: 12px;
   text-align: center;
   margin-top: 20px;
 }
 .footer a {
-  color: #ccc;
+  color: #313131;
   text-decoration: underline;
 }
 .the-icons {
@@ -220,14 +226,8 @@ body {
 .switch input {
   margin-right: 0.3em;
 }
-.codesOn .i-name {
-  display: none;
-}
-.codesOn .i-code {
-  display: inline;
-}
-.i-code {
-  display: none;
+.i-name {
+  font-size: 12px;
 }
 @font-face {
       font-family: 'ignitor';
@@ -239,15 +239,12 @@ body {
       font-weight: normal;
       font-style: normal;
     }
-     
-     
-    .demo-icon
+    .ignitor-icon
     {
-      font-family: "ignitor";
+      font-family: "ignitor"!important;
       font-style: normal;
       font-weight: normal;
       speak: none;
-     
       display: inline-block;
       text-decoration: inherit;
       width: 1em;
@@ -276,6 +273,19 @@ body {
       /* Uncomment for 3D effect */
       /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
     }
+    #ignitor-iconslist{
+      max-height: 50vh;
+      overflow-y: auto;
+      margin: 0px;
+      padding:0px;
+      list-style: none;
+      width: 100%;
+    }
+    #ignitor-iconslist li{
+      float: left;
+      width: 25%;
+      padding: 10px;
+    }
      </style>
     <link rel="stylesheet" href="css/animation.css"><!--[if IE 7]><link rel="stylesheet" href="css/" + font.fontname + "-ie7.css"><![endif]-->
     <script>
@@ -291,456 +301,89 @@ body {
       
     </script>
   </head>
-  <body>
-    <div class="container header">
+  <body style="padding-top: 60px;">
+    <div class="header fixed-top inverse-bg">
+      <a class="header-title" href="/"><img src="img/logo.png" style="height:53px;" alt="Ignitor"></a>
+      <ul class="menu menu-right">
+        <li ><a href="/">Home</a></li>
+        <li ><a target="_blank" href="https://ignitor.codejunkers.in">CSS</a></li>
+        <li class="active"><a target="_blank" href="https://ignitorfonts.codejunkers.in">Fonts</a></li>
+        <li ><a href="https://github.com/ignitorcss"><span style="color: white;" class="ignitor-icon ignitor-github"></span></a></li>
+      </ul>
+    </div>
+    <!-- <div class="container header">
       <h1>Ignitor <small>fonts</small></h1>
       <label class="switch">
         <input type="checkbox" onclick="toggleCodes(this.checked)">show codes
       </label>
-    </div>
-    <div class="container" id="icons">
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe800"><i class="demo-icon ignitor-emo-happy">&#xe800;</i> <span class="i-name">ignitor-emo-happy</span><span class="i-code">0xe800</span></div>
-        <div class="the-icons span3" title="Code: 0xe801"><i class="demo-icon ignitor-emo-left">&#xe801;</i> <span class="i-name">ignitor-emo-left</span><span class="i-code">0xe801</span></div>
-        <div class="the-icons span3" title="Code: 0xe802"><i class="demo-icon ignitor-emo-unhappy">&#xe802;</i> <span class="i-name">ignitor-emo-unhappy</span><span class="i-code">0xe802</span></div>
-        <div class="the-icons span3" title="Code: 0xe803"><i class="demo-icon ignitor-emo-sleep">&#xe803;</i> <span class="i-name">ignitor-emo-sleep</span><span class="i-code">0xe803</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe805"><i class="demo-icon ignitor-emo-devil">&#xe805;</i> <span class="i-name">ignitor-emo-devil</span><span class="i-code">0xe805</span></div>
-        <div class="the-icons span3" title="Code: 0xe806"><i class="demo-icon ignitor-emo-surprised">&#xe806;</i> <span class="i-name">ignitor-emo-surprised</span><span class="i-code">0xe806</span></div>
-        <div class="the-icons span3" title="Code: 0xe807"><i class="demo-icon ignitor-emo-tongue">&#xe807;</i> <span class="i-name">ignitor-emo-tongue</span><span class="i-code">0xe807</span></div>
-        <div class="the-icons span3" title="Code: 0xe809"><i class="demo-icon ignitor-emo-sunglasses">&#xe809;</i> <span class="i-name">ignitor-emo-sunglasses</span><span class="i-code">0xe809</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe80a"><i class="demo-icon ignitor-emo-displeased">&#xe80a;</i> <span class="i-name">ignitor-emo-displeased</span><span class="i-code">0xe80a</span></div>
-        <div class="the-icons span3" title="Code: 0xe80c"><i class="demo-icon ignitor-emo-grin">&#xe80c;</i> <span class="i-name">ignitor-emo-grin</span><span class="i-code">0xe80c</span></div>
-        <div class="the-icons span3" title="Code: 0xe80d"><i class="demo-icon ignitor-emo-angry">&#xe80d;</i> <span class="i-name">ignitor-emo-angry</span><span class="i-code">0xe80d</span></div>
-        <div class="the-icons span3" title="Code: 0xe80e"><i class="demo-icon ignitor-emo-saint">&#xe80e;</i> <span class="i-name">ignitor-emo-saint</span><span class="i-code">0xe80e</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe80f"><i class="demo-icon ignitor-emo-cry">&#xe80f;</i> <span class="i-name">ignitor-emo-cry</span><span class="i-code">0xe80f</span></div>
-        <div class="the-icons span3" title="Code: 0xe811"><i class="demo-icon ignitor-emo-squint">&#xe811;</i> <span class="i-name">ignitor-emo-squint</span><span class="i-code">0xe811</span></div>
-        <div class="the-icons span3" title="Code: 0xe812"><i class="demo-icon ignitor-emo-laugh">&#xe812;</i> <span class="i-name">ignitor-emo-laugh</span><span class="i-code">0xe812</span></div>
-        <div class="the-icons span3" title="Code: 0xe813"><i class="demo-icon ignitor-emo-right">&#xe813;</i> <span class="i-name">ignitor-emo-right</span><span class="i-code">0xe813</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe814"><i class="demo-icon ignitor-user">&#xe814;</i> <span class="i-name">ignitor-user</span><span class="i-code">0xe814</span></div>
-        <div class="the-icons span3" title="Code: 0xe815"><i class="demo-icon ignitor-users">&#xe815;</i> <span class="i-name">ignitor-users</span><span class="i-code">0xe815</span></div>
-        <div class="the-icons span3" title="Code: 0xe816"><i class="demo-icon ignitor-user-add">&#xe816;</i> <span class="i-name">ignitor-user-add</span><span class="i-code">0xe816</span></div>
-        <div class="the-icons span3" title="Code: 0xe817"><i class="demo-icon ignitor-star">&#xe817;</i> <span class="i-name">ignitor-star</span><span class="i-code">0xe817</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe818"><i class="demo-icon ignitor-star-empty">&#xe818;</i> <span class="i-name">ignitor-star-empty</span><span class="i-code">0xe818</span></div>
-        <div class="the-icons span3" title="Code: 0xe819"><i class="demo-icon ignitor-heart">&#xe819;</i> <span class="i-name">ignitor-heart</span><span class="i-code">0xe819</span></div>
-        <div class="the-icons span3" title="Code: 0xe81a"><i class="demo-icon ignitor-heart-empty">&#xe81a;</i> <span class="i-name">ignitor-heart-empty</span><span class="i-code">0xe81a</span></div>
-        <div class="the-icons span3" title="Code: 0xe81b"><i class="demo-icon ignitor-mail">&#xe81b;</i> <span class="i-name">ignitor-mail</span><span class="i-code">0xe81b</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe81c"><i class="demo-icon ignitor-flashlight">&#xe81c;</i> <span class="i-name">ignitor-flashlight</span><span class="i-code">0xe81c</span></div>
-        <div class="the-icons span3" title="Code: 0xe81d"><i class="demo-icon ignitor-search">&#xe81d;</i> <span class="i-name">ignitor-search</span><span class="i-code">0xe81d</span></div>
-        <div class="the-icons span3" title="Code: 0xe81e"><i class="demo-icon ignitor-cancel-circled">&#xe81e;</i> <span class="i-name">ignitor-cancel-circled</span><span class="i-code">0xe81e</span></div>
-        <div class="the-icons span3" title="Code: 0xe81f"><i class="demo-icon ignitor-cancel-squared">&#xe81f;</i> <span class="i-name">ignitor-cancel-squared</span><span class="i-code">0xe81f</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe820"><i class="demo-icon ignitor-plus">&#xe820;</i> <span class="i-name">ignitor-plus</span><span class="i-code">0xe820</span></div>
-        <div class="the-icons span3" title="Code: 0xe821"><i class="demo-icon ignitor-plus-circled">&#xe821;</i> <span class="i-name">ignitor-plus-circled</span><span class="i-code">0xe821</span></div>
-        <div class="the-icons span3" title="Code: 0xe822"><i class="demo-icon ignitor-plus-squared">&#xe822;</i> <span class="i-name">ignitor-plus-squared</span><span class="i-code">0xe822</span></div>
-        <div class="the-icons span3" title="Code: 0xe823"><i class="demo-icon ignitor-minus">&#xe823;</i> <span class="i-name">ignitor-minus</span><span class="i-code">0xe823</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe824"><i class="demo-icon ignitor-minus-circled">&#xe824;</i> <span class="i-name">ignitor-minus-circled</span><span class="i-code">0xe824</span></div>
-        <div class="the-icons span3" title="Code: 0xe825"><i class="demo-icon ignitor-minus-squared">&#xe825;</i> <span class="i-name">ignitor-minus-squared</span><span class="i-code">0xe825</span></div>
-        <div class="the-icons span3" title="Code: 0xe826"><i class="demo-icon ignitor-info-circled">&#xe826;</i> <span class="i-name">ignitor-info-circled</span><span class="i-code">0xe826</span></div>
-        <div class="the-icons span3" title="Code: 0xe827"><i class="demo-icon ignitor-info">&#xe827;</i> <span class="i-name">ignitor-info</span><span class="i-code">0xe827</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe828"><i class="demo-icon ignitor-home">&#xe828;</i> <span class="i-name">ignitor-home</span><span class="i-code">0xe828</span></div>
-        <div class="the-icons span3" title="Code: 0xe829"><i class="demo-icon ignitor-link">&#xe829;</i> <span class="i-name">ignitor-link</span><span class="i-code">0xe829</span></div>
-        <div class="the-icons span3" title="Code: 0xe82a"><i class="demo-icon ignitor-attach">&#xe82a;</i> <span class="i-name">ignitor-attach</span><span class="i-code">0xe82a</span></div>
-        <div class="the-icons span3" title="Code: 0xe82b"><i class="demo-icon ignitor-video">&#xe82b;</i> <span class="i-name">ignitor-video</span><span class="i-code">0xe82b</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe82c"><i class="demo-icon ignitor-layout">&#xe82c;</i> <span class="i-name">ignitor-layout</span><span class="i-code">0xe82c</span></div>
-        <div class="the-icons span3" title="Code: 0xe82d"><i class="demo-icon ignitor-menu">&#xe82d;</i> <span class="i-name">ignitor-menu</span><span class="i-code">0xe82d</span></div>
-        <div class="the-icons span3" title="Code: 0xe82e"><i class="demo-icon ignitor-check">&#xe82e;</i> <span class="i-name">ignitor-check</span><span class="i-code">0xe82e</span></div>
-        <div class="the-icons span3" title="Code: 0xe82f"><i class="demo-icon ignitor-cancel">&#xe82f;</i> <span class="i-name">ignitor-cancel</span><span class="i-code">0xe82f</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe830"><i class="demo-icon ignitor-spin animate-spin">&#xe830;</i> <span class="i-name">ignitor-spin</span><span class="i-code">0xe830</span></div>
-        <div class="the-icons span3" title="Code: 0xe831"><i class="demo-icon ignitor-spin-multiple animate-spin">&#xe831;</i> <span class="i-name">ignitor-spin-multiple</span><span class="i-code">0xe831</span></div>
-        <div class="the-icons span3" title="Code: 0xe832"><i class="demo-icon ignitor-recycle animate-spin">&#xe832;</i> <span class="i-name">ignitor-recycle</span><span class="i-code">0xe832</span></div>
-        <div class="the-icons span3" title="Code: 0xe833"><i class="demo-icon ignitor-eye">&#xe833;</i> <span class="i-name">ignitor-eye</span><span class="i-code">0xe833</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe834"><i class="demo-icon ignitor-spin-double animate-spin">&#xe834;</i> <span class="i-name">ignitor-spin-double</span><span class="i-code">0xe834</span></div>
-        <div class="the-icons span3" title="Code: 0xe835"><i class="demo-icon ignitor-lock-open">&#xe835;</i> <span class="i-name">ignitor-lock-open</span><span class="i-code">0xe835</span></div>
-        <div class="the-icons span3" title="Code: 0xe836"><i class="demo-icon ignitor-lock">&#xe836;</i> <span class="i-name">ignitor-lock</span><span class="i-code">0xe836</span></div>
-        <div class="the-icons span3" title="Code: 0xe837"><i class="demo-icon ignitor-tag">&#xe837;</i> <span class="i-name">ignitor-tag</span><span class="i-code">0xe837</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe838"><i class="demo-icon ignitor-loader animate-spin">&#xe838;</i> <span class="i-name">ignitor-loader</span><span class="i-code">0xe838</span></div>
-        <div class="the-icons span3" title="Code: 0xe839"><i class="demo-icon ignitor-loader-single animate-spin">&#xe839;</i> <span class="i-name">ignitor-loader-single</span><span class="i-code">0xe839</span></div>
-        <div class="the-icons span3" title="Code: 0xe83a"><i class="demo-icon ignitor-thick-right">&#xe83a;</i> <span class="i-name">ignitor-thick-right</span><span class="i-code">0xe83a</span></div>
-        <div class="the-icons span3" title="Code: 0xe83b"><i class="demo-icon ignitor-thick-up">&#xe83b;</i> <span class="i-name">ignitor-thick-up</span><span class="i-code">0xe83b</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe83c"><i class="demo-icon ignitor-flag">&#xe83c;</i> <span class="i-name">ignitor-flag</span><span class="i-code">0xe83c</span></div>
-        <div class="the-icons span3" title="Code: 0xe83d"><i class="demo-icon ignitor-thumbs-up">&#xe83d;</i> <span class="i-name">ignitor-thumbs-up</span><span class="i-code">0xe83d</span></div>
-        <div class="the-icons span3" title="Code: 0xe83e"><i class="demo-icon ignitor-thumbs-down">&#xe83e;</i> <span class="i-name">ignitor-thumbs-down</span><span class="i-code">0xe83e</span></div>
-        <div class="the-icons span3" title="Code: 0xe83f"><i class="demo-icon ignitor-download">&#xe83f;</i> <span class="i-name">ignitor-download</span><span class="i-code">0xe83f</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe840"><i class="demo-icon ignitor-firefox">&#xe840;</i> <span class="i-name">ignitor-firefox</span><span class="i-code">0xe840</span></div>
-        <div class="the-icons span3" title="Code: 0xe841"><i class="demo-icon ignitor-chrome">&#xe841;</i> <span class="i-name">ignitor-chrome</span><span class="i-code">0xe841</span></div>
-        <div class="the-icons span3" title="Code: 0xe842"><i class="demo-icon ignitor-opera">&#xe842;</i> <span class="i-name">ignitor-opera</span><span class="i-code">0xe842</span></div>
-        <div class="the-icons span3" title="Code: 0xe843"><i class="demo-icon ignitor-ie">&#xe843;</i> <span class="i-name">ignitor-ie</span><span class="i-code">0xe843</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe844"><i class="demo-icon ignitor-crown">&#xe844;</i> <span class="i-name">ignitor-crown</span><span class="i-code">0xe844</span></div>
-        <div class="the-icons span3" title="Code: 0xe845"><i class="demo-icon ignitor-crown-plus">&#xe845;</i> <span class="i-name">ignitor-crown-plus</span><span class="i-code">0xe845</span></div>
-        <div class="the-icons span3" title="Code: 0xe846"><i class="demo-icon ignitor-crown-minus">&#xe846;</i> <span class="i-name">ignitor-crown-minus</span><span class="i-code">0xe846</span></div>
-        <div class="the-icons span3" title="Code: 0xe847"><i class="demo-icon ignitor-marquee">&#xe847;</i> <span class="i-name">ignitor-marquee</span><span class="i-code">0xe847</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe848"><i class="demo-icon ignitor-upload">&#xe848;</i> <span class="i-name">ignitor-upload</span><span class="i-code">0xe848</span></div>
-        <div class="the-icons span3" title="Code: 0xe849"><i class="demo-icon ignitor-upload-cloud">&#xe849;</i> <span class="i-name">ignitor-upload-cloud</span><span class="i-code">0xe849</span></div>
-        <div class="the-icons span3" title="Code: 0xe84a"><i class="demo-icon ignitor-reply">&#xe84a;</i> <span class="i-name">ignitor-reply</span><span class="i-code">0xe84a</span></div>
-        <div class="the-icons span3" title="Code: 0xe84b"><i class="demo-icon ignitor-reply-all">&#xe84b;</i> <span class="i-name">ignitor-reply-all</span><span class="i-code">0xe84b</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe84c"><i class="demo-icon ignitor-forward">&#xe84c;</i> <span class="i-name">ignitor-forward</span><span class="i-code">0xe84c</span></div>
-        <div class="the-icons span3" title="Code: 0xe84d"><i class="demo-icon ignitor-quote">&#xe84d;</i> <span class="i-name">ignitor-quote</span><span class="i-code">0xe84d</span></div>
-        <div class="the-icons span3" title="Code: 0xe84e"><i class="demo-icon ignitor-code">&#xe84e;</i> <span class="i-name">ignitor-code</span><span class="i-code">0xe84e</span></div>
-        <div class="the-icons span3" title="Code: 0xe84f"><i class="demo-icon ignitor-export">&#xe84f;</i> <span class="i-name">ignitor-export</span><span class="i-code">0xe84f</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe850"><i class="demo-icon ignitor-pencil">&#xe850;</i> <span class="i-name">ignitor-pencil</span><span class="i-code">0xe850</span></div>
-        <div class="the-icons span3" title="Code: 0xe851"><i class="demo-icon ignitor-feather">&#xe851;</i> <span class="i-name">ignitor-feather</span><span class="i-code">0xe851</span></div>
-        <div class="the-icons span3" title="Code: 0xe852"><i class="demo-icon ignitor-print">&#xe852;</i> <span class="i-name">ignitor-print</span><span class="i-code">0xe852</span></div>
-        <div class="the-icons span3" title="Code: 0xe853"><i class="demo-icon ignitor-retweet">&#xe853;</i> <span class="i-name">ignitor-retweet</span><span class="i-code">0xe853</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe854"><i class="demo-icon ignitor-keyboard">&#xe854;</i> <span class="i-name">ignitor-keyboard</span><span class="i-code">0xe854</span></div>
-        <div class="the-icons span3" title="Code: 0xe855"><i class="demo-icon ignitor-comment">&#xe855;</i> <span class="i-name">ignitor-comment</span><span class="i-code">0xe855</span></div>
-        <div class="the-icons span3" title="Code: 0xe856"><i class="demo-icon ignitor-chat">&#xe856;</i> <span class="i-name">ignitor-chat</span><span class="i-code">0xe856</span></div>
-        <div class="the-icons span3" title="Code: 0xe857"><i class="demo-icon ignitor-bell">&#xe857;</i> <span class="i-name">ignitor-bell</span><span class="i-code">0xe857</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe858"><i class="demo-icon ignitor-attention">&#xe858;</i> <span class="i-name">ignitor-attention</span><span class="i-code">0xe858</span></div>
-        <div class="the-icons span3" title="Code: 0xe859"><i class="demo-icon ignitor-thick-down">&#xe859;</i> <span class="i-name">ignitor-thick-down</span><span class="i-code">0xe859</span></div>
-        <div class="the-icons span3" title="Code: 0xe85a"><i class="demo-icon ignitor-thick-left">&#xe85a;</i> <span class="i-name">ignitor-thick-left</span><span class="i-code">0xe85a</span></div>
-        <div class="the-icons span3" title="Code: 0xe85b"><i class="demo-icon ignitor-umbrella">&#xe85b;</i> <span class="i-name">ignitor-umbrella</span><span class="i-code">0xe85b</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe85c"><i class="demo-icon ignitor-location">&#xe85c;</i> <span class="i-name">ignitor-location</span><span class="i-code">0xe85c</span></div>
-        <div class="the-icons span3" title="Code: 0xe85d"><i class="demo-icon ignitor-map">&#xe85d;</i> <span class="i-name">ignitor-map</span><span class="i-code">0xe85d</span></div>
-        <div class="the-icons span3" title="Code: 0xe85e"><i class="demo-icon ignitor-direction">&#xe85e;</i> <span class="i-name">ignitor-direction</span><span class="i-code">0xe85e</span></div>
-        <div class="the-icons span3" title="Code: 0xe85f"><i class="demo-icon ignitor-compass">&#xe85f;</i> <span class="i-name">ignitor-compass</span><span class="i-code">0xe85f</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe860"><i class="demo-icon ignitor-cup">&#xe860;</i> <span class="i-name">ignitor-cup</span><span class="i-code">0xe860</span></div>
-        <div class="the-icons span3" title="Code: 0xe861"><i class="demo-icon ignitor-trash">&#xe861;</i> <span class="i-name">ignitor-trash</span><span class="i-code">0xe861</span></div>
-        <div class="the-icons span3" title="Code: 0xe862"><i class="demo-icon ignitor-tower">&#xe862;</i> <span class="i-name">ignitor-tower</span><span class="i-code">0xe862</span></div>
-        <div class="the-icons span3" title="Code: 0xe863"><i class="demo-icon ignitor-videocam">&#xe863;</i> <span class="i-name">ignitor-videocam</span><span class="i-code">0xe863</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe864"><i class="demo-icon ignitor-ok">&#xe864;</i> <span class="i-name">ignitor-ok</span><span class="i-code">0xe864</span></div>
-        <div class="the-icons span3" title="Code: 0xe865"><i class="demo-icon ignitor-trash-bin">&#xe865;</i> <span class="i-name">ignitor-trash-bin</span><span class="i-code">0xe865</span></div>
-        <div class="the-icons span3" title="Code: 0xe866"><i class="demo-icon ignitor-location-marker">&#xe866;</i> <span class="i-name">ignitor-location-marker</span><span class="i-code">0xe866</span></div>
-        <div class="the-icons span3" title="Code: 0xe867"><i class="demo-icon ignitor-bullhorn">&#xe867;</i> <span class="i-name">ignitor-bullhorn</span><span class="i-code">0xe867</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe868"><i class="demo-icon ignitor-volume-up">&#xe868;</i> <span class="i-name">ignitor-volume-up</span><span class="i-code">0xe868</span></div>
-        <div class="the-icons span3" title="Code: 0xe869"><i class="demo-icon ignitor-volume-down">&#xe869;</i> <span class="i-name">ignitor-volume-down</span><span class="i-code">0xe869</span></div>
-        <div class="the-icons span3" title="Code: 0xe86a"><i class="demo-icon ignitor-folder">&#xe86a;</i> <span class="i-name">ignitor-folder</span><span class="i-code">0xe86a</span></div>
-        <div class="the-icons span3" title="Code: 0xe86b"><i class="demo-icon ignitor-archive">&#xe86b;</i> <span class="i-name">ignitor-archive</span><span class="i-code">0xe86b</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe86c"><i class="demo-icon ignitor-box">&#xe86c;</i> <span class="i-name">ignitor-box</span><span class="i-code">0xe86c</span></div>
-        <div class="the-icons span3" title="Code: 0xe86d"><i class="demo-icon ignitor-rss">&#xe86d;</i> <span class="i-name">ignitor-rss</span><span class="i-code">0xe86d</span></div>
-        <div class="the-icons span3" title="Code: 0xe86e"><i class="demo-icon ignitor-phone">&#xe86e;</i> <span class="i-name">ignitor-phone</span><span class="i-code">0xe86e</span></div>
-        <div class="the-icons span3" title="Code: 0xe86f"><i class="demo-icon ignitor-cog">&#xe86f;</i> <span class="i-name">ignitor-cog</span><span class="i-code">0xe86f</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe870"><i class="demo-icon ignitor-tools">&#xe870;</i> <span class="i-name">ignitor-tools</span><span class="i-code">0xe870</span></div>
-        <div class="the-icons span3" title="Code: 0xe871"><i class="demo-icon ignitor-share">&#xe871;</i> <span class="i-name">ignitor-share</span><span class="i-code">0xe871</span></div>
-        <div class="the-icons span3" title="Code: 0xe872"><i class="demo-icon ignitor-volume-off">&#xe872;</i> <span class="i-name">ignitor-volume-off</span><span class="i-code">0xe872</span></div>
-        <div class="the-icons span3" title="Code: 0xe873"><i class="demo-icon ignitor-basket">&#xe873;</i> <span class="i-name">ignitor-basket</span><span class="i-code">0xe873</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe874"><i class="demo-icon ignitor-bag">&#xe874;</i> <span class="i-name">ignitor-bag</span><span class="i-code">0xe874</span></div>
-        <div class="the-icons span3" title="Code: 0xe875"><i class="demo-icon ignitor-award">&#xe875;</i> <span class="i-name">ignitor-award</span><span class="i-code">0xe875</span></div>
-        <div class="the-icons span3" title="Code: 0xe876"><i class="demo-icon ignitor-login">&#xe876;</i> <span class="i-name">ignitor-login</span><span class="i-code">0xe876</span></div>
-        <div class="the-icons span3" title="Code: 0xe877"><i class="demo-icon ignitor-logout">&#xe877;</i> <span class="i-name">ignitor-logout</span><span class="i-code">0xe877</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe878"><i class="demo-icon ignitor-mic">&#xe878;</i> <span class="i-name">ignitor-mic</span><span class="i-code">0xe878</span></div>
-        <div class="the-icons span3" title="Code: 0xe879"><i class="demo-icon ignitor-mute">&#xe879;</i> <span class="i-name">ignitor-mute</span><span class="i-code">0xe879</span></div>
-        <div class="the-icons span3" title="Code: 0xe87a"><i class="demo-icon ignitor-sound">&#xe87a;</i> <span class="i-name">ignitor-sound</span><span class="i-code">0xe87a</span></div>
-        <div class="the-icons span3" title="Code: 0xe87b"><i class="demo-icon ignitor-globe">&#xe87b;</i> <span class="i-name">ignitor-globe</span><span class="i-code">0xe87b</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe87c"><i class="demo-icon ignitor-clock">&#xe87c;</i> <span class="i-name">ignitor-clock</span><span class="i-code">0xe87c</span></div>
-        <div class="the-icons span3" title="Code: 0xe87d"><i class="demo-icon ignitor-hourglass">&#xe87d;</i> <span class="i-name">ignitor-hourglass</span><span class="i-code">0xe87d</span></div>
-        <div class="the-icons span3" title="Code: 0xe87e"><i class="demo-icon ignitor-lamp">&#xe87e;</i> <span class="i-name">ignitor-lamp</span><span class="i-code">0xe87e</span></div>
-        <div class="the-icons span3" title="Code: 0xe87f"><i class="demo-icon ignitor-light-down">&#xe87f;</i> <span class="i-name">ignitor-light-down</span><span class="i-code">0xe87f</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe880"><i class="demo-icon ignitor-light-up">&#xe880;</i> <span class="i-name">ignitor-light-up</span><span class="i-code">0xe880</span></div>
-        <div class="the-icons span3" title="Code: 0xe881"><i class="demo-icon ignitor-adjust">&#xe881;</i> <span class="i-name">ignitor-adjust</span><span class="i-code">0xe881</span></div>
-        <div class="the-icons span3" title="Code: 0xe882"><i class="demo-icon ignitor-block">&#xe882;</i> <span class="i-name">ignitor-block</span><span class="i-code">0xe882</span></div>
-        <div class="the-icons span3" title="Code: 0xe883"><i class="demo-icon ignitor-resize-full">&#xe883;</i> <span class="i-name">ignitor-resize-full</span><span class="i-code">0xe883</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe884"><i class="demo-icon ignitor-resize-small">&#xe884;</i> <span class="i-name">ignitor-resize-small</span><span class="i-code">0xe884</span></div>
-        <div class="the-icons span3" title="Code: 0xe885"><i class="demo-icon ignitor-popup">&#xe885;</i> <span class="i-name">ignitor-popup</span><span class="i-code">0xe885</span></div>
-        <div class="the-icons span3" title="Code: 0xe886"><i class="demo-icon ignitor-th">&#xe886;</i> <span class="i-name">ignitor-th</span><span class="i-code">0xe886</span></div>
-        <div class="the-icons span3" title="Code: 0xe887"><i class="demo-icon ignitor-youtube">&#xe887;</i> <span class="i-name">ignitor-youtube</span><span class="i-code">0xe887</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe888"><i class="demo-icon ignitor-arrow-combo">&#xe888;</i> <span class="i-name">ignitor-arrow-combo</span><span class="i-code">0xe888</span></div>
-        <div class="the-icons span3" title="Code: 0xe889"><i class="demo-icon ignitor-down-circled">&#xe889;</i> <span class="i-name">ignitor-down-circled</span><span class="i-code">0xe889</span></div>
-        <div class="the-icons span3" title="Code: 0xe88a"><i class="demo-icon ignitor-left-circled">&#xe88a;</i> <span class="i-name">ignitor-left-circled</span><span class="i-code">0xe88a</span></div>
-        <div class="the-icons span3" title="Code: 0xe88b"><i class="demo-icon ignitor-right-circled">&#xe88b;</i> <span class="i-name">ignitor-right-circled</span><span class="i-code">0xe88b</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe88c"><i class="demo-icon ignitor-up-circled">&#xe88c;</i> <span class="i-name">ignitor-up-circled</span><span class="i-code">0xe88c</span></div>
-        <div class="the-icons span3" title="Code: 0xe88d"><i class="demo-icon ignitor-down-open">&#xe88d;</i> <span class="i-name">ignitor-down-open</span><span class="i-code">0xe88d</span></div>
-        <div class="the-icons span3" title="Code: 0xe88e"><i class="demo-icon ignitor-left-open">&#xe88e;</i> <span class="i-name">ignitor-left-open</span><span class="i-code">0xe88e</span></div>
-        <div class="the-icons span3" title="Code: 0xe88f"><i class="demo-icon ignitor-right-open">&#xe88f;</i> <span class="i-name">ignitor-right-open</span><span class="i-code">0xe88f</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe890"><i class="demo-icon ignitor-up-open">&#xe890;</i> <span class="i-name">ignitor-up-open</span><span class="i-code">0xe890</span></div>
-        <div class="the-icons span3" title="Code: 0xe891"><i class="demo-icon ignitor-down-open-mini">&#xe891;</i> <span class="i-name">ignitor-down-open-mini</span><span class="i-code">0xe891</span></div>
-        <div class="the-icons span3" title="Code: 0xe892"><i class="demo-icon ignitor-left-open-mini">&#xe892;</i> <span class="i-name">ignitor-left-open-mini</span><span class="i-code">0xe892</span></div>
-        <div class="the-icons span3" title="Code: 0xe893"><i class="demo-icon ignitor-right-open-mini">&#xe893;</i> <span class="i-name">ignitor-right-open-mini</span><span class="i-code">0xe893</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe894"><i class="demo-icon ignitor-up-open-mini">&#xe894;</i> <span class="i-name">ignitor-up-open-mini</span><span class="i-code">0xe894</span></div>
-        <div class="the-icons span3" title="Code: 0xe895"><i class="demo-icon ignitor-down-open-big">&#xe895;</i> <span class="i-name">ignitor-down-open-big</span><span class="i-code">0xe895</span></div>
-        <div class="the-icons span3" title="Code: 0xe896"><i class="demo-icon ignitor-left-open-big">&#xe896;</i> <span class="i-name">ignitor-left-open-big</span><span class="i-code">0xe896</span></div>
-        <div class="the-icons span3" title="Code: 0xe898"><i class="demo-icon ignitor-up-open-big">&#xe898;</i> <span class="i-name">ignitor-up-open-big</span><span class="i-code">0xe898</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe899"><i class="demo-icon ignitor-down">&#xe899;</i> <span class="i-name">ignitor-down</span><span class="i-code">0xe899</span></div>
-        <div class="the-icons span3" title="Code: 0xe89a"><i class="demo-icon ignitor-left">&#xe89a;</i> <span class="i-name">ignitor-left</span><span class="i-code">0xe89a</span></div>
-        <div class="the-icons span3" title="Code: 0xe89b"><i class="demo-icon ignitor-right">&#xe89b;</i> <span class="i-name">ignitor-right</span><span class="i-code">0xe89b</span></div>
-        <div class="the-icons span3" title="Code: 0xe89c"><i class="demo-icon ignitor-up">&#xe89c;</i> <span class="i-name">ignitor-up</span><span class="i-code">0xe89c</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe89d"><i class="demo-icon ignitor-down-dir">&#xe89d;</i> <span class="i-name">ignitor-down-dir</span><span class="i-code">0xe89d</span></div>
-        <div class="the-icons span3" title="Code: 0xe89e"><i class="demo-icon ignitor-left-dir">&#xe89e;</i> <span class="i-name">ignitor-left-dir</span><span class="i-code">0xe89e</span></div>
-        <div class="the-icons span3" title="Code: 0xe89f"><i class="demo-icon ignitor-right-dir">&#xe89f;</i> <span class="i-name">ignitor-right-dir</span><span class="i-code">0xe89f</span></div>
-        <div class="the-icons span3" title="Code: 0xe8a0"><i class="demo-icon ignitor-up-dir">&#xe8a0;</i> <span class="i-name">ignitor-up-dir</span><span class="i-code">0xe8a0</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8a1"><i class="demo-icon ignitor-stackoverflow">&#xe8a1;</i> <span class="i-name">ignitor-stackoverflow</span><span class="i-code">0xe8a1</span></div>
-        <div class="the-icons span3" title="Code: 0xe8a2"><i class="demo-icon ignitor-angellist">&#xe8a2;</i> <span class="i-name">ignitor-angellist</span><span class="i-code">0xe8a2</span></div>
-        <div class="the-icons span3" title="Code: 0xe8a3"><i class="demo-icon ignitor-buffer">&#xe8a3;</i> <span class="i-name">ignitor-buffer</span><span class="i-code">0xe8a3</span></div>
-        <div class="the-icons span3" title="Code: 0xe8a4"><i class="demo-icon ignitor-bitbucket">&#xe8a4;</i> <span class="i-name">ignitor-bitbucket</span><span class="i-code">0xe8a4</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8a5"><i class="demo-icon ignitor-down-thin">&#xe8a5;</i> <span class="i-name">ignitor-down-thin</span><span class="i-code">0xe8a5</span></div>
-        <div class="the-icons span3" title="Code: 0xe8a6"><i class="demo-icon ignitor-left-thin">&#xe8a6;</i> <span class="i-name">ignitor-left-thin</span><span class="i-code">0xe8a6</span></div>
-        <div class="the-icons span3" title="Code: 0xe8a7"><i class="demo-icon ignitor-right-thin">&#xe8a7;</i> <span class="i-name">ignitor-right-thin</span><span class="i-code">0xe8a7</span></div>
-        <div class="the-icons span3" title="Code: 0xe8a8"><i class="demo-icon ignitor-up-thin">&#xe8a8;</i> <span class="i-name">ignitor-up-thin</span><span class="i-code">0xe8a8</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8a9"><i class="demo-icon ignitor-ccw">&#xe8a9;</i> <span class="i-name">ignitor-ccw</span><span class="i-code">0xe8a9</span></div>
-        <div class="the-icons span3" title="Code: 0xe8aa"><i class="demo-icon ignitor-cw">&#xe8aa;</i> <span class="i-name">ignitor-cw</span><span class="i-code">0xe8aa</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ab"><i class="demo-icon ignitor-arrows-ccw">&#xe8ab;</i> <span class="i-name">ignitor-arrows-ccw</span><span class="i-code">0xe8ab</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ac"><i class="demo-icon ignitor-level-down">&#xe8ac;</i> <span class="i-name">ignitor-level-down</span><span class="i-code">0xe8ac</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8ad"><i class="demo-icon ignitor-level-up">&#xe8ad;</i> <span class="i-name">ignitor-level-up</span><span class="i-code">0xe8ad</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ae"><i class="demo-icon ignitor-shuffle">&#xe8ae;</i> <span class="i-name">ignitor-shuffle</span><span class="i-code">0xe8ae</span></div>
-        <div class="the-icons span3" title="Code: 0xe8af"><i class="demo-icon ignitor-loop">&#xe8af;</i> <span class="i-name">ignitor-loop</span><span class="i-code">0xe8af</span></div>
-        <div class="the-icons span3" title="Code: 0xe8b0"><i class="demo-icon ignitor-switch">&#xe8b0;</i> <span class="i-name">ignitor-switch</span><span class="i-code">0xe8b0</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8b1"><i class="demo-icon ignitor-play">&#xe8b1;</i> <span class="i-name">ignitor-play</span><span class="i-code">0xe8b1</span></div>
-        <div class="the-icons span3" title="Code: 0xe8b2"><i class="demo-icon ignitor-stop">&#xe8b2;</i> <span class="i-name">ignitor-stop</span><span class="i-code">0xe8b2</span></div>
-        <div class="the-icons span3" title="Code: 0xe8b3"><i class="demo-icon ignitor-pause">&#xe8b3;</i> <span class="i-name">ignitor-pause</span><span class="i-code">0xe8b3</span></div>
-        <div class="the-icons span3" title="Code: 0xe8b4"><i class="demo-icon ignitor-record">&#xe8b4;</i> <span class="i-name">ignitor-record</span><span class="i-code">0xe8b4</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8b5"><i class="demo-icon ignitor-to-end">&#xe8b5;</i> <span class="i-name">ignitor-to-end</span><span class="i-code">0xe8b5</span></div>
-        <div class="the-icons span3" title="Code: 0xe8b6"><i class="demo-icon ignitor-to-start">&#xe8b6;</i> <span class="i-name">ignitor-to-start</span><span class="i-code">0xe8b6</span></div>
-        <div class="the-icons span3" title="Code: 0xe8b7"><i class="demo-icon ignitor-fast-forward">&#xe8b7;</i> <span class="i-name">ignitor-fast-forward</span><span class="i-code">0xe8b7</span></div>
-        <div class="the-icons span3" title="Code: 0xe8b8"><i class="demo-icon ignitor-fast-backward">&#xe8b8;</i> <span class="i-name">ignitor-fast-backward</span><span class="i-code">0xe8b8</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8b9"><i class="demo-icon ignitor-wordpress">&#xe8b9;</i> <span class="i-name">ignitor-wordpress</span><span class="i-code">0xe8b9</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ba"><i class="demo-icon ignitor-progress-low">&#xe8ba;</i> <span class="i-name">ignitor-progress-low</span><span class="i-code">0xe8ba</span></div>
-        <div class="the-icons span3" title="Code: 0xe8bb"><i class="demo-icon ignitor-progress-half">&#xe8bb;</i> <span class="i-name">ignitor-progress-half</span><span class="i-code">0xe8bb</span></div>
-        <div class="the-icons span3" title="Code: 0xe8bc"><i class="demo-icon ignitor-progress-full">&#xe8bc;</i> <span class="i-name">ignitor-progress-full</span><span class="i-code">0xe8bc</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8bd"><i class="demo-icon ignitor-target">&#xe8bd;</i> <span class="i-name">ignitor-target</span><span class="i-code">0xe8bd</span></div>
-        <div class="the-icons span3" title="Code: 0xe8be"><i class="demo-icon ignitor-amazon">&#xe8be;</i> <span class="i-name">ignitor-amazon</span><span class="i-code">0xe8be</span></div>
-        <div class="the-icons span3" title="Code: 0xe8bf"><i class="demo-icon ignitor-list">&#xe8bf;</i> <span class="i-name">ignitor-list</span><span class="i-code">0xe8bf</span></div>
-        <div class="the-icons span3" title="Code: 0xe8c0"><i class="demo-icon ignitor-html5">&#xe8c0;</i> <span class="i-name">ignitor-html5</span><span class="i-code">0xe8c0</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8c1"><i class="demo-icon ignitor-wifi">&#xe8c1;</i> <span class="i-name">ignitor-wifi</span><span class="i-code">0xe8c1</span></div>
-        <div class="the-icons span3" title="Code: 0xe8c2"><i class="demo-icon ignitor-trophy">&#xe8c2;</i> <span class="i-name">ignitor-trophy</span><span class="i-code">0xe8c2</span></div>
-        <div class="the-icons span3" title="Code: 0xe8c3"><i class="demo-icon ignitor-battery">&#xe8c3;</i> <span class="i-name">ignitor-battery</span><span class="i-code">0xe8c3</span></div>
-        <div class="the-icons span3" title="Code: 0xe8c4"><i class="demo-icon ignitor-back-in-time">&#xe8c4;</i> <span class="i-name">ignitor-back-in-time</span><span class="i-code">0xe8c4</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8c5"><i class="demo-icon ignitor-monitor">&#xe8c5;</i> <span class="i-name">ignitor-monitor</span><span class="i-code">0xe8c5</span></div>
-        <div class="the-icons span3" title="Code: 0xe8c6"><i class="demo-icon ignitor-mobile">&#xe8c6;</i> <span class="i-name">ignitor-mobile</span><span class="i-code">0xe8c6</span></div>
-        <div class="the-icons span3" title="Code: 0xe8c7"><i class="demo-icon ignitor-w3c">&#xe8c7;</i> <span class="i-name">ignitor-w3c</span><span class="i-code">0xe8c7</span></div>
-        <div class="the-icons span3" title="Code: 0xe8c8"><i class="demo-icon ignitor-calendar">&#xe8c8;</i> <span class="i-name">ignitor-calendar</span><span class="i-code">0xe8c8</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8c9"><i class="demo-icon ignitor-git">&#xe8c9;</i> <span class="i-name">ignitor-git</span><span class="i-code">0xe8c9</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ca"><i class="demo-icon ignitor-headphones">&#xe8ca;</i> <span class="i-name">ignitor-headphones</span><span class="i-code">0xe8ca</span></div>
-        <div class="the-icons span3" title="Code: 0xe8cb"><i class="demo-icon ignitor-road">&#xe8cb;</i> <span class="i-name">ignitor-road</span><span class="i-code">0xe8cb</span></div>
-        <div class="the-icons span3" title="Code: 0xe8cc"><i class="demo-icon ignitor-briefcase">&#xe8cc;</i> <span class="i-name">ignitor-briefcase</span><span class="i-code">0xe8cc</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8cd"><i class="demo-icon ignitor-indent-right">&#xe8cd;</i> <span class="i-name">ignitor-indent-right</span><span class="i-code">0xe8cd</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ce"><i class="demo-icon ignitor-flash">&#xe8ce;</i> <span class="i-name">ignitor-flash</span><span class="i-code">0xe8ce</span></div>
-        <div class="the-icons span3" title="Code: 0xe8cf"><i class="demo-icon ignitor-moon">&#xe8cf;</i> <span class="i-name">ignitor-moon</span><span class="i-code">0xe8cf</span></div>
-        <div class="the-icons span3" title="Code: 0xe8d0"><i class="demo-icon ignitor-plane">&#xe8d0;</i> <span class="i-name">ignitor-plane</span><span class="i-code">0xe8d0</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8d1"><i class="demo-icon ignitor-paper-plane">&#xe8d1;</i> <span class="i-name">ignitor-paper-plane</span><span class="i-code">0xe8d1</span></div>
-        <div class="the-icons span3" title="Code: 0xe8d2"><i class="demo-icon ignitor-leaf">&#xe8d2;</i> <span class="i-name">ignitor-leaf</span><span class="i-code">0xe8d2</span></div>
-        <div class="the-icons span3" title="Code: 0xe8d3"><i class="demo-icon ignitor-indent-left">&#xe8d3;</i> <span class="i-name">ignitor-indent-left</span><span class="i-code">0xe8d3</span></div>
-        <div class="the-icons span3" title="Code: 0xe8d4"><i class="demo-icon ignitor-credit-card-light">&#xe8d4;</i> <span class="i-name">ignitor-credit-card-light</span><span class="i-code">0xe8d4</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8d6"><i class="demo-icon ignitor-suitcase">&#xe8d6;</i> <span class="i-name">ignitor-suitcase</span><span class="i-code">0xe8d6</span></div>
-        <div class="the-icons span3" title="Code: 0xe8d7"><i class="demo-icon ignitor-dot">&#xe8d7;</i> <span class="i-name">ignitor-dot</span><span class="i-code">0xe8d7</span></div>
-        <div class="the-icons span3" title="Code: 0xe8d8"><i class="demo-icon ignitor-dot-2">&#xe8d8;</i> <span class="i-name">ignitor-dot-2</span><span class="i-code">0xe8d8</span></div>
-        <div class="the-icons span3" title="Code: 0xe8d9"><i class="demo-icon ignitor-dot-3">&#xe8d9;</i> <span class="i-name">ignitor-dot-3</span><span class="i-code">0xe8d9</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8da"><i class="demo-icon ignitor-brush">&#xe8da;</i> <span class="i-name">ignitor-brush</span><span class="i-code">0xe8da</span></div>
-        <div class="the-icons span3" title="Code: 0xe8db"><i class="demo-icon ignitor-magnet">&#xe8db;</i> <span class="i-name">ignitor-magnet</span><span class="i-code">0xe8db</span></div>
-        <div class="the-icons span3" title="Code: 0xe8dc"><i class="demo-icon ignitor-infinity">&#xe8dc;</i> <span class="i-name">ignitor-infinity</span><span class="i-code">0xe8dc</span></div>
-        <div class="the-icons span3" title="Code: 0xe8dd"><i class="demo-icon ignitor-erase">&#xe8dd;</i> <span class="i-name">ignitor-erase</span><span class="i-code">0xe8dd</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8de"><i class="demo-icon ignitor-chart-pie">&#xe8de;</i> <span class="i-name">ignitor-chart-pie</span><span class="i-code">0xe8de</span></div>
-        <div class="the-icons span3" title="Code: 0xe8df"><i class="demo-icon ignitor-chart-line">&#xe8df;</i> <span class="i-name">ignitor-chart-line</span><span class="i-code">0xe8df</span></div>
-        <div class="the-icons span3" title="Code: 0xe8e0"><i class="demo-icon ignitor-chart-bar">&#xe8e0;</i> <span class="i-name">ignitor-chart-bar</span><span class="i-code">0xe8e0</span></div>
-        <div class="the-icons span3" title="Code: 0xe8e1"><i class="demo-icon ignitor-chart-area">&#xe8e1;</i> <span class="i-name">ignitor-chart-area</span><span class="i-code">0xe8e1</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8e2"><i class="demo-icon ignitor-magnet-link">&#xe8e2;</i> <span class="i-name">ignitor-magnet-link</span><span class="i-code">0xe8e2</span></div>
-        <div class="the-icons span3" title="Code: 0xe8e3"><i class="demo-icon ignitor-graduation-cap">&#xe8e3;</i> <span class="i-name">ignitor-graduation-cap</span><span class="i-code">0xe8e3</span></div>
-        <div class="the-icons span3" title="Code: 0xe8e4"><i class="demo-icon ignitor-language">&#xe8e4;</i> <span class="i-name">ignitor-language</span><span class="i-code">0xe8e4</span></div>
-        <div class="the-icons span3" title="Code: 0xe8e5"><i class="demo-icon ignitor-ticket">&#xe8e5;</i> <span class="i-name">ignitor-ticket</span><span class="i-code">0xe8e5</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8e6"><i class="demo-icon ignitor-water">&#xe8e6;</i> <span class="i-name">ignitor-water</span><span class="i-code">0xe8e6</span></div>
-        <div class="the-icons span3" title="Code: 0xe8e7"><i class="demo-icon ignitor-droplet">&#xe8e7;</i> <span class="i-name">ignitor-droplet</span><span class="i-code">0xe8e7</span></div>
-        <div class="the-icons span3" title="Code: 0xe8e8"><i class="demo-icon ignitor-air">&#xe8e8;</i> <span class="i-name">ignitor-air</span><span class="i-code">0xe8e8</span></div>
-        <div class="the-icons span3" title="Code: 0xe8e9"><i class="demo-icon ignitor-credit-card">&#xe8e9;</i> <span class="i-name">ignitor-credit-card</span><span class="i-code">0xe8e9</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8ea"><i class="demo-icon ignitor-floppy">&#xe8ea;</i> <span class="i-name">ignitor-floppy</span><span class="i-code">0xe8ea</span></div>
-        <div class="the-icons span3" title="Code: 0xe8eb"><i class="demo-icon ignitor-clipboard">&#xe8eb;</i> <span class="i-name">ignitor-clipboard</span><span class="i-code">0xe8eb</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ec"><i class="demo-icon ignitor-megaphone">&#xe8ec;</i> <span class="i-name">ignitor-megaphone</span><span class="i-code">0xe8ec</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ed"><i class="demo-icon ignitor-database">&#xe8ed;</i> <span class="i-name">ignitor-database</span><span class="i-code">0xe8ed</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8ee"><i class="demo-icon ignitor-drive">&#xe8ee;</i> <span class="i-name">ignitor-drive</span><span class="i-code">0xe8ee</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ef"><i class="demo-icon ignitor-bucket">&#xe8ef;</i> <span class="i-name">ignitor-bucket</span><span class="i-code">0xe8ef</span></div>
-        <div class="the-icons span3" title="Code: 0xe8f0"><i class="demo-icon ignitor-thermometer">&#xe8f0;</i> <span class="i-name">ignitor-thermometer</span><span class="i-code">0xe8f0</span></div>
-        <div class="the-icons span3" title="Code: 0xe8f1"><i class="demo-icon ignitor-key">&#xe8f1;</i> <span class="i-name">ignitor-key</span><span class="i-code">0xe8f1</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8f2"><i class="demo-icon ignitor-flow-cascade">&#xe8f2;</i> <span class="i-name">ignitor-flow-cascade</span><span class="i-code">0xe8f2</span></div>
-        <div class="the-icons span3" title="Code: 0xe8f3"><i class="demo-icon ignitor-flow-branch">&#xe8f3;</i> <span class="i-name">ignitor-flow-branch</span><span class="i-code">0xe8f3</span></div>
-        <div class="the-icons span3" title="Code: 0xe8f4"><i class="demo-icon ignitor-flow-tree">&#xe8f4;</i> <span class="i-name">ignitor-flow-tree</span><span class="i-code">0xe8f4</span></div>
-        <div class="the-icons span3" title="Code: 0xe8f5"><i class="demo-icon ignitor-flow-line">&#xe8f5;</i> <span class="i-name">ignitor-flow-line</span><span class="i-code">0xe8f5</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8f6"><i class="demo-icon ignitor-flow-parallel">&#xe8f6;</i> <span class="i-name">ignitor-flow-parallel</span><span class="i-code">0xe8f6</span></div>
-        <div class="the-icons span3" title="Code: 0xe8f7"><i class="demo-icon ignitor-rocket">&#xe8f7;</i> <span class="i-name">ignitor-rocket</span><span class="i-code">0xe8f7</span></div>
-        <div class="the-icons span3" title="Code: 0xe8f8"><i class="demo-icon ignitor-gauge">&#xe8f8;</i> <span class="i-name">ignitor-gauge</span><span class="i-code">0xe8f8</span></div>
-        <div class="the-icons span3" title="Code: 0xe8f9"><i class="demo-icon ignitor-traffic-cone">&#xe8f9;</i> <span class="i-name">ignitor-traffic-cone</span><span class="i-code">0xe8f9</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8fa"><i class="demo-icon ignitor-gift">&#xe8fa;</i> <span class="i-name">ignitor-gift</span><span class="i-code">0xe8fa</span></div>
-        <div class="the-icons span3" title="Code: 0xe8fb"><i class="demo-icon ignitor-braille">&#xe8fb;</i> <span class="i-name">ignitor-braille</span><span class="i-code">0xe8fb</span></div>
-        <div class="the-icons span3" title="Code: 0xe8fc"><i class="demo-icon ignitor-flight">&#xe8fc;</i> <span class="i-name">ignitor-flight</span><span class="i-code">0xe8fc</span></div>
-        <div class="the-icons span3" title="Code: 0xe8fd"><i class="demo-icon ignitor-signal">&#xe8fd;</i> <span class="i-name">ignitor-signal</span><span class="i-code">0xe8fd</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe8fe"><i class="demo-icon ignitor-qrcode">&#xe8fe;</i> <span class="i-name">ignitor-qrcode</span><span class="i-code">0xe8fe</span></div>
-        <div class="the-icons span3" title="Code: 0xe8ff"><i class="demo-icon ignitor-barcode">&#xe8ff;</i> <span class="i-name">ignitor-barcode</span><span class="i-code">0xe8ff</span></div>
-        <div class="the-icons span3" title="Code: 0xe900"><i class="demo-icon ignitor-diamond">&#xe900;</i> <span class="i-name">ignitor-diamond</span><span class="i-code">0xe900</span></div>
-        <div class="the-icons span3" title="Code: 0xe901"><i class="demo-icon ignitor-shop">&#xe901;</i> <span class="i-name">ignitor-shop</span><span class="i-code">0xe901</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe902"><i class="demo-icon ignitor-money">&#xe902;</i> <span class="i-name">ignitor-money</span><span class="i-code">0xe902</span></div>
-        <div class="the-icons span3" title="Code: 0xe903"><i class="demo-icon ignitor-truck">&#xe903;</i> <span class="i-name">ignitor-truck</span><span class="i-code">0xe903</span></div>
-        <div class="the-icons span3" title="Code: 0xe904"><i class="demo-icon ignitor-setting">&#xe904;</i> <span class="i-name">ignitor-setting</span><span class="i-code">0xe904</span></div>
-        <div class="the-icons span3" title="Code: 0xe905"><i class="demo-icon ignitor-database-light">&#xe905;</i> <span class="i-name">ignitor-database-light</span><span class="i-code">0xe905</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe906"><i class="demo-icon ignitor-progress-0">&#xe906;</i> <span class="i-name">ignitor-progress-0</span><span class="i-code">0xe906</span></div>
-        <div class="the-icons span3" title="Code: 0xe907"><i class="demo-icon ignitor-progress-1">&#xe907;</i> <span class="i-name">ignitor-progress-1</span><span class="i-code">0xe907</span></div>
-        <div class="the-icons span3" title="Code: 0xe908"><i class="demo-icon ignitor-progress-2">&#xe908;</i> <span class="i-name">ignitor-progress-2</span><span class="i-code">0xe908</span></div>
-        <div class="the-icons span3" title="Code: 0xe909"><i class="demo-icon ignitor-progress-3">&#xe909;</i> <span class="i-name">ignitor-progress-3</span><span class="i-code">0xe909</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe90a"><i class="demo-icon ignitor-progress-4">&#xe90a;</i> <span class="i-name">ignitor-progress-4</span><span class="i-code">0xe90a</span></div>
-        <div class="the-icons span3" title="Code: 0xe90b"><i class="demo-icon ignitor-progress-5">&#xe90b;</i> <span class="i-name">ignitor-progress-5</span><span class="i-code">0xe90b</span></div>
-        <div class="the-icons span3" title="Code: 0xe90c"><i class="demo-icon ignitor-progress-6">&#xe90c;</i> <span class="i-name">ignitor-progress-6</span><span class="i-code">0xe90c</span></div>
-        <div class="the-icons span3" title="Code: 0xe90d"><i class="demo-icon ignitor-progress-7">&#xe90d;</i> <span class="i-name">ignitor-progress-7</span><span class="i-code">0xe90d</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xe90e"><i class="demo-icon ignitor-terminal">&#xe90e;</i> <span class="i-name">ignitor-terminal</span><span class="i-code">0xe90e</span></div>
-        <div class="the-icons span3" title="Code: 0xe90f"><i class="demo-icon ignitor-ok-circle">&#xe90f;</i> <span class="i-name">ignitor-ok-circle</span><span class="i-code">0xe90f</span></div>
-        <div class="the-icons span3" title="Code: 0xf300"><i class="demo-icon ignitor-github">&#xf300;</i> <span class="i-name">ignitor-github</span><span class="i-code">0xf300</span></div>
-        <div class="the-icons span3" title="Code: 0xf301"><i class="demo-icon ignitor-github-circled">&#xf301;</i> <span class="i-name">ignitor-github-circled</span><span class="i-code">0xf301</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xf303"><i class="demo-icon ignitor-flickr">&#xf303;</i> <span class="i-name">ignitor-flickr</span><span class="i-code">0xf303</span></div>
-        <div class="the-icons span3" title="Code: 0xf304"><i class="demo-icon ignitor-flickr-circled">&#xf304;</i> <span class="i-name">ignitor-flickr-circled</span><span class="i-code">0xf304</span></div>
-        <div class="the-icons span3" title="Code: 0xf306"><i class="demo-icon ignitor-vimeo">&#xf306;</i> <span class="i-name">ignitor-vimeo</span><span class="i-code">0xf306</span></div>
-        <div class="the-icons span3" title="Code: 0xf307"><i class="demo-icon ignitor-vimeo-circled">&#xf307;</i> <span class="i-name">ignitor-vimeo-circled</span><span class="i-code">0xf307</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xf309"><i class="demo-icon ignitor-twitter">&#xf309;</i> <span class="i-name">ignitor-twitter</span><span class="i-code">0xf309</span></div>
-        <div class="the-icons span3" title="Code: 0xf30a"><i class="demo-icon ignitor-twitter-circled">&#xf30a;</i> <span class="i-name">ignitor-twitter-circled</span><span class="i-code">0xf30a</span></div>
-        <div class="the-icons span3" title="Code: 0xf30c"><i class="demo-icon ignitor-facebook">&#xf30c;</i> <span class="i-name">ignitor-facebook</span><span class="i-code">0xf30c</span></div>
-        <div class="the-icons span3" title="Code: 0xf30d"><i class="demo-icon ignitor-facebook-circled">&#xf30d;</i> <span class="i-name">ignitor-facebook-circled</span><span class="i-code">0xf30d</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xf30e"><i class="demo-icon ignitor-facebook-squared">&#xf30e;</i> <span class="i-name">ignitor-facebook-squared</span><span class="i-code">0xf30e</span></div>
-        <div class="the-icons span3" title="Code: 0xf30f"><i class="demo-icon ignitor-gplus">&#xf30f;</i> <span class="i-name">ignitor-gplus</span><span class="i-code">0xf30f</span></div>
-        <div class="the-icons span3" title="Code: 0xf312"><i class="demo-icon ignitor-pinterest">&#xf312;</i> <span class="i-name">ignitor-pinterest</span><span class="i-code">0xf312</span></div>
-        <div class="the-icons span3" title="Code: 0xf313"><i class="demo-icon ignitor-pinterest-circled">&#xf313;</i> <span class="i-name">ignitor-pinterest-circled</span><span class="i-code">0xf313</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xf318"><i class="demo-icon ignitor-linkedin">&#xf318;</i> <span class="i-name">ignitor-linkedin</span><span class="i-code">0xf318</span></div>
-        <div class="the-icons span3" title="Code: 0xf319"><i class="demo-icon ignitor-linkedin-circled">&#xf319;</i> <span class="i-name">ignitor-linkedin-circled</span><span class="i-code">0xf319</span></div>
-        <div class="the-icons span3" title="Code: 0xf31b"><i class="demo-icon ignitor-dribbble">&#xf31b;</i> <span class="i-name">ignitor-dribbble</span><span class="i-code">0xf31b</span></div>
-        <div class="the-icons span3" title="Code: 0xf325"><i class="demo-icon ignitor-windows">&#xf325;</i> <span class="i-name">ignitor-windows</span><span class="i-code">0xf325</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xf32d"><i class="demo-icon ignitor-instagram">&#xf32d;</i> <span class="i-name">ignitor-instagram</span><span class="i-code">0xf32d</span></div>
-        <div class="the-icons span3" title="Code: 0xf330"><i class="demo-icon ignitor-dropbox">&#xf330;</i> <span class="i-name">ignitor-dropbox</span><span class="i-code">0xf330</span></div>
-        <div class="the-icons span3" title="Code: 0xf339"><i class="demo-icon ignitor-skype">&#xf339;</i> <span class="i-name">ignitor-skype</span><span class="i-code">0xf339</span></div>
-        <div class="the-icons span3" title="Code: 0xf33a"><i class="demo-icon ignitor-skype-circled">&#xf33a;</i> <span class="i-name">ignitor-skype-circled</span><span class="i-code">0xf33a</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xf345"><i class="demo-icon ignitor-picasa">&#xf345;</i> <span class="i-name">ignitor-picasa</span><span class="i-code">0xf345</span></div>
-        <div class="the-icons span3" title="Code: 0xf348"><i class="demo-icon ignitor-soundcloud">&#xf348;</i> <span class="i-name">ignitor-soundcloud</span><span class="i-code">0xf348</span></div>
-        <div class="the-icons span3" title="Code: 0xf34e"><i class="demo-icon ignitor-behance">&#xf34e;</i> <span class="i-name">ignitor-behance</span><span class="i-code">0xf34e</span></div>
-        <div class="the-icons span3" title="Code: 0xf351"><i class="demo-icon ignitor-google-circles">&#xf351;</i> <span class="i-name">ignitor-google-circles</span><span class="i-code">0xf351</span></div>
-      </div>
-      <div class="row">
-        <div class="the-icons span3" title="Code: 0xf354"><i class="demo-icon ignitor-vkontakte">&#xf354;</i> <span class="i-name">ignitor-vkontakte</span><span class="i-code">0xf354</span></div>
+    </div> -->
+    <div class="i-container">
+      <div class="row">
+        <div class="md-12 sm-12 xs-12 lg-12 pad-top-40">
+          <h5>Ignitor Fonts</h5>
+          <p style="color: #888;font-size: 1.2em;letter-spacing: 0.1px;">Try this handmade awesome fonts. it helps you to add more look and feel to your websites and applications. You can select which version you want depending on your preference and expertise</p>
+          <br>
+          <h6 style="color:#444;letter-spacing: 0px;">search you required:</h6>
+          <input type="text" id="searchTerm" class="pad-10 margin-top-5" style="border-radius: 7px;width: 95%;" placeholder="Enter your search term...">
+        </div>
+        <div class="md-12 sm-12 xs-12 lg-12 pad-top-40 pad-bottom-40">
+          <h5>List of icons :</h5>
+          <div style="background-color:#fff;" class="pad-5">
+            <ul id="ignitor-iconslist">
+            </ul>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="container footer">Created by <a href="https://venkatasaikatepalli.codejunkers.in">Venkata Sai Katepalli</a></div>
+    <div class="i-container-fluid">
+      <div class="row">
+        <div class="md-12">
+          <hr>
+          <div class="footer">
+            <p>Created by <a href="https://venkatasaikatepalli.codejunkers.in">Venkata Sai Katepalli</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+        renderData();
+        function renderData () {
+          $.getJSON( "js/icons2.json", function( data ) {
+            $('#ignitor-iconslist').html('');
+            $.each( data, function( key, value ) {
+              $('#ignitor-iconslist').append('<li><i class="ignitor-icon '+value.name+'">&#'+value.code+';</i> <span class="i-name">'+value.name+'</span></li>');
+            });
+           });
+        } 
+
+        $('#searchTerm').keyup(function () {
+          console.log('done');
+          $.getJSON( "js/icons2.json", function( data ) {
+            const search_key = $('#searchTerm').val();
+            const datalist = data;
+            const results = [];
+            const len = datalist.length;
+            for (let i = 0; i < len; i += 1) {
+              const fn = datalist[i].name.toLowerCase().indexOf(search_key);
+              const ln = datalist[i].code.toLowerCase().indexOf(search_key);
+              if (fn >= 0 || ln >= 0) {
+                results.push(datalist[i]);
+              }
+            }
+
+            $('#ignitor-iconslist').html('');
+            $.each( results, function( key, value ) {
+              $('#ignitor-iconslist').append('<li><i class="ignitor-icon '+value.name+'">&#'+value.code+';</i> <span class="i-name">'+value.name+'</span></li>');
+              });
+            });
+        });
+
+      });
+    </script>
 </html>
